@@ -170,6 +170,15 @@ This section describes the key roles supporting the project.
 
 | Name & Organization | Project Role | Project Responsibilities |
 | ------------------- | ------------ | ------------------------ |
+| Developers               | Project Team Member  | Engage in day-to-day activities and contribute to project |
+| Team Lead                | Project Team Member  | Ensure team stays on track, work breakdowns, work assignment and provide updates to Project Manager |
+| Project Manager          | Project Team Member  | Ensure Project Manager is familiar with requirements and provide updates to Director/CEO |
+| Director/CEO             | Project Sponsor      | Ensure Team Lead is up to date on requirements and update Investors if needed |
+| Investors                | Secondary Stakeholder| Financial support |
+| Client Company           | Customer             | Provide feedback and requests |
+| General Public           | Future Customer      | Future feedback and requests |
+| Future External Companies| Future Customer      | Future feedback and requests |
+| Technology Manufacturers | Hardware/software supporter | Follow requirements and support changes|
 
 ## 7 PROJECT CHARTER APPROVAL
 
