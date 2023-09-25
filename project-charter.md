@@ -1,12 +1,12 @@
-# Project Name
+# U↑ (U Up)
 
 **Project Charter**:
 
-**Version**:
+**Version**: 1.1
 
-**Date**:
+**Date**: September 26, 2023
 
-**Team Name**:
+**Team Name**: Shaowei's Angels
 
 ## VERSION HISTORY
 
@@ -14,31 +14,30 @@ Provide information on how the development and distribution of the Project Chart
 
 | Version # | Implemented By | Revision Date | Approved By | Approval Date | Reason |
 |-----------|----------------|---------------|-------------|---------------|--------|
-| 1.0       | Barbara  | <mm/dd/yy>    | <name>      | <mm/dd/yy>    | <reason> |
+| 1.0       | Mia  | 09/24/23    | Cody      | 09/25/23    | Added product overview and project deliverables. |
+| 1.1       | Barbara  | 09/26/23    | Mia      | 09/26/23    | Added project objectives and requirements. |
 
 | Name | Email | Period of being project manager |
 | ---- | ----- | ------------------------------- |
-| <team member 1 > | email | hello |
+| Mia Battad | battadm@myumanitoba.ca | September 22, 2023 - September 29, 2023 |
 
 ## 1 INTRODUCTION
 
 ### 1.1 Purpose of Project Charter
 
-> [Provide the purpose of the project charter.]
+The U↑ project charter documents and tracks the necessary information required by decision maker(s) to approve the project for funding. The project charter should include the needs, scope, justification, and resource commitment as well as the project’s sponsor(s) decision to proceed or not to proceed with the project. It is created during the Initiating Phase of the project.
 
-The <Project Name> project charter documents and tracks the necessary information required by decision maker(s) to approve the project for funding. The project charter should include the needs, scope, justification, and resource commitment as well as the project’s sponsor(s) decision to proceed or not to proceed with the project. It is created during the Initiating Phase of the project.
-
-The intended audience of the <Project Name> project charter is the project sponsor and senior leadership
+The intended audience of the U↑ project charter is the project sponsor and senior leadership.
 
 ## 2 PROJECT AND PRODUCT OVERVIEW
 
-> [Typically, the description should answer who, what, when and where, in a concise manner. It should also state the estimated project duration (e.g., 18 months) and the estimated project budget (e.g., $1.5M)
+U↑ is an internet-based phone system for company employees. Employees can make and receive calls over the internet using their desktop computers, smartphones, tablets, or other devices connected to the U↑ system. Each device connected to U↑ will be associated with the same business phone number for incoming and outgoing calls. Any connected device can make or receive calls using U↑ whenever and wherever necessary.
 
-## 3 JUSTIFICATION - me
+The project will take place over an estimated [], with an estimated budget of [].
+
+## 3 JUSTIFICATION
 
 ### 3.1 Objectives
-
-> [identify the objectives using SMART (Specific, Measurable, Attainable, Relevant, Time-bound)]
 
 The objectives of U↑ are as follows:
 
@@ -99,6 +98,11 @@ Accomplishing this goal will ensure that our company gets paid so that we can ke
 
 | Major Deliverable | Deliverable Description |
 | ----------------- | ----------------------- |
+| Architecture design document | A high-level document describing the functional requirements and system architecture for the U↑ system. |
+| Client app UI mock-ups | Interactive user interface mock-ups representing how the U↑ mobile and desktop apps will look and respond to user interaction. |
+| System back-end and console | The server software and database for the U↑ system that can be interacted with and tested through an administrator console. |
+| Client app integration | Functional client applications that connect to the U↑ back-end and database to make and receive calls. |
+| System metrics & performance report | A report detailing the measured increases in efficiency, customer satisfaction, and system availability after implementing U↑ within the company. |
 
 ### 3.4 Scope
 
