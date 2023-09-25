@@ -139,18 +139,26 @@ The table below lists the high-level Executive Milestones of the project and the
 
 ### 5.1 Assumptions
 
-1. [Insert description of the first assumption.]
-2. [Insert description of the second assumption.]
+1. **Client-Server Communication**: Given the client-server model, it's assumed that the system's architecture will support seamless interaction between multiple clients and the central server via sockets.
+2. **Database Integrity**: It's presumed that the database, potentially supporting the system, will maintain a consistent state even with concurrent access from call processing and administration.
+3. **Billing Accuracy**: With varying rates based on dialed number, call duration, and timing, we assume the system can calculate bills with high precision to avoid discrepancies.
+4. **Client Adaptability**: Given that clients can be desktop apps, mobile apps, etc., it's assumed that all versions will provide a uniform user experience.
+5. **Singular Administrator Access**: Only one Administrator accesses the System Console at a time.
 
 ### 5.2 Constraints
 
-1. [Insert description of the first constraint.]
-2. [Insert description of the second constraint.]
+1. **4-Digit Dialing**: With a 4-digit dialing plan, the system has an inherent limitation on the number of unique extensions.
+2. **Socket-Only Communication**: The mandate that communication should exclusively occur over sockets restricts alternative communication methods.
+3. **Load Limits**: The system has an upper threshold for the number of concurrent calls it can handle, determined by the Administrator.
 
 ### 5.3 Risks
 
 | Risk | Mitigation |
-| ---- | ---------- |
+| --- | --- |
+| **Unforeseen Call Scenarios** causing system glitches, such as calls to busy lines or invalid numbers. | Integrate advanced call routing algorithms and fallback mechanisms. |
+| **Data Breach or Unauthorized Access** especially for the System Console and User Accounts. | Employ stringent security measures, including multi-factor authentication and end-to-end encryption. |
+| **Billing Discrepancies** leading to potential customer grievances. | Implement robust billing verification mechanisms and provide users with a transparent breakdown of charges. |
+| **System Overload**, especially if the number of calls nears the set limit, affecting call quality. | Design an alert system for administrators and consider elastic scalability solutions. |
 
 ## 6 PROJECT ORGANIZATION
 
