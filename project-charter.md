@@ -2,7 +2,7 @@
 
 **Project Charter**:
 
-**Version**: 1.4
+**Version**: 1.5
 
 **Date**: September 26, 2023
 
@@ -17,12 +17,13 @@ Provide information on how the development and distribution of the Project Chart
 | 1.0       | Mia            | 09/24/23      | Cody        | 09/25/23      | Added product overview and project deliverables. |
 | 1.1       | Dan            | 09/25/23      | Cody        | 09/25/23      | Added project assumptions, constraints, and risks. |
 | 1.2       | Barbara        | 09/26/23      | Mia         | 09/26/23      | Added project objectives and requirements. |
-| 1.3       | Cody           | 09/26/23      | Mia         | 09/26/23      | Added descriptions of roles & responsibilies. |
-| 1.4       | Mia            | 09/26/23      | <name>      | <mm/dd/yy>    | Added timeline and executive milestones. |
+| 1.3       | Cody           | 09/26/23      | Mia         | 09/26/23      | Added descriptions of roles & responsibility. |
+| 1.4       | Mia            | 09/26/23      | Mia         | 09/26/23      | Added timeline and executive milestones. |
+| 1.5       | Group          | 09/26/23      | Group       | 09/26/23      | Final Review. |
 
 | Name | Email | Period of being project manager |
 | ---- | ----- | ------------------------------- |
-| Mia Battad | battadm@myumanitoba.ca | September 22, 2023 - September 29, 2023 |
+| Mia Battad | [battadm@myumanitoba.ca](battadm@myumanitoba.ca )| September 22, 2023 - September 29, 2023 |
 
 ## 1 INTRODUCTION
 
@@ -34,7 +35,7 @@ The intended audience of the U↑ project charter is the project sponsor and sen
 
 ## 2 PROJECT AND PRODUCT OVERVIEW
 
-U↑ is an internet-based phone system for company employees. Employees can make and receive calls over the internet using their desktop computers, smartphones, tablets, or other devices connected to the U↑ system. Each device connected to U↑ will be associated with the same business phone number for incoming and outgoing calls. Any connected device can make or receive calls using U↑ whenever and wherever necessary.
+U↑ is an internet-based phone system for company employees. Employees can make and receive calls over the internet using their desktop computers, smartphones, tablets, or other devices connected to the U↑ system. Each user's devices connected to U↑ will be associated with a unique business phone number for incoming and outgoing calls. Any connected device can make or receive calls using U↑ whenever and wherever necessary.
 
 The project will take place over an estimated 12 months, with an estimated budget of $2M.
 
@@ -44,53 +45,11 @@ The project will take place over an estimated 12 months, with an estimated budge
 
 The objectives of U↑ are as follows:
 
-1. Develop the system structure of U↑ the by the end of the first sprint. The developers will accomplish this goal by:
-    - Researching the issue of communication over sockets between the server and clients.
-    - Developing a document where it outlines how the system is going to work, what technologies are going to be used and explaining the choices that they made.
+- Reduce downtime in the project after the system has been up and running for a month. The Administrators will accomplish this goal by offering training sessions. Accomplishing this will reduce the time where people are waiting for a response.
 
-Accomplishing this goal will ensure we have a good foundation when implementing the structure.
+- Cut down onboarding time by 10% by the the end of December 2024. The Administrators will accomplish this goal by asking for feedback after onboarding new customers in how to make onboarding faster for them. Accomplishing this will make communications more efficiently and happier customers.
 
-2. Implement the system structure of U↑ the by the end of the first quarter. The developers will accomplish this goal by:
-    - Making user stories and breaking them down into tasks.
-    - Having daily meetings to check up on the work people are doing.
-
-Accomplishing this goal will ensure we have a strong foundation when implementing future features.
-
-3. Basic Call processing by the end of the first quarter. The developers will accomplish this goal by:
-    - Making user stories and breaking them down into tasks.
-    - Having daily meetings to check up on the work people are doing.
-
-Accomplishing this goal will ensure that our clients can successfully call whoever they need to reach.
-
-4. Dialing Plan Processing by the end of the second quarter. The developers will accomplish this goal by:
-    - Making user stories and breaking them down into tasks.
-    - Having daily meetings to check up on the work people are doing.
-
-Accomplishing this goal will ensure that our clients don't have to worry about reaching the right person when dialing someone.
-
-5. System Console by the end of the second quarter. The developers will accomplish this goal by:
-    - Making user stories and breaking them down into tasks.
-    - Having daily meetings to check up on the work people are doing.
-
-Accomplishing this goal will ensure that our clients have unique accounts.
-
-6. Users can create accounts by the end of the third quarter. The developers will accomplish this goal by:
-    - Making user stories and breaking them down into tasks.
-    - Having daily meetings to check up on the work people are doing.
-
-Accomplishing this goal will ensure that our clients have personal accounts and can make and receive calls.
-
-7. Load balancing calls by the end of the third quarter. The developers will accomplish this goal by:
-    - Making user stories and breaking them down into tasks.
-    - Having daily meetings to check up on the work people are doing.
-
-Accomplishing this goal will ensure that our servers wont be overloaded by the users.
-
-8. Billing user calls by the end of the third quarter. The developers will accomplish this goal by:
-    - Making user stories and breaking them down into tasks.
-    - Having daily meetings to check up on the work people is doing.
-
-Accomplishing this goal will ensure that our company gets paid so that we can keep developing this project.
+- When making a call it should be rerouted within 5 seconds by the end of December 2024. The developer willa accomplish this goal by having a clean structure and implementing clean code. Accomplishing this goal will make the users have a smooth experience with the phone.
 
 ### 3.2 High-Level Requirements
 
@@ -102,7 +61,7 @@ Accomplishing this goal will ensure that our company gets paid so that we can ke
 | 4 | Users calls are mapped from (IP address, port) |
 | 5 | There is an User Interface where the administrators can log in and use to control a network of phones |
 | 6 | Regular users can create ana account and originate or receive calls, they can also block other users or have privileges |
-| 7 | The Administrators can change the maximum number of callas allowed in the system  |
+| 7 | The Administrators can change the maximum number of callers allowed in the system  |
 | 9 | We successfully charge the users for making a call, taking into account, the regular fee, how many times they call, and discount rates for the periods |
 
 ### 3.3 Major Deliverables
@@ -117,22 +76,17 @@ Accomplishing this goal will ensure that our company gets paid so that we can ke
 
 ### 3.4 Scope
 
-> [Describe the inclusive and exclusive boundaries of the project. Specifically address items that are out of scope.]
-
-#### Project objective
-
-At U↑ we want to develop the most seamless interaction for users when utilizing the virtual phone.
-
 #### Inclusive Boundaries
 
-Im not sure what he means by this, its no where in the notes imma ask today :)
+- Calls will be supported inside the client company.
+- Support only audio and text.
+- We support major tech hardware and software.
 
 #### Exclusive Boundaries
 
-#### Out of Scope
-
-- We are not automating load balancing.
 - We are not integrating with other calling software.
+- We are not supported to calls outside the client company.
+- We do not support video calls.
 
 ## 4 DURATION
 
@@ -147,9 +101,9 @@ Im not sure what he means by this, its no where in the notes imma ask today :)
 
 ### 4.2 Executive Milestones
 
-The table below lists the high-level Executive Milestones of the project and their estimated completion timeframe.
+The table below lists the high-level Executive Milestones of the project and their estimated completion time frame.
 
-| Executive Milestones | Estimated Completion Timeframe |
+| Executive Milestones | Estimated Completion Time frame |
 | -------------------- | ------------------------------ |
 | Project plan created and approved | 2 weeks after Project Charter's initial draft is completed |
 | Visual prototypes developed | 8 weeks after requirements are finalized |
@@ -185,23 +139,48 @@ The table below lists the high-level Executive Milestones of the project and the
 
 ## 6 PROJECT ORGANIZATION
 
-### 6.1 Stakeholders (Internal and External)
+### 6.1 Stakeholders
+
+#### Internal
+
+- Sales Representative
+- IT department
+- Developers
+- Team Lead
+- Project Manager
+- Director/CEO
+
+#### External
+
+- Investors
+- Client Company
+- General Public
+- Future External Companies
+- Technology Manufacturers
 
 ### 6.2 Roles and Responsibilities
 
 This section describes the key roles supporting the project.
 
+#### Internal Roles and Responsibilities
+
 | Name & Organization | Project Role | Project Responsibilities |
 | ------------------- | ------------ | ------------------------ |
-| Developers               | Project Team Member  | Engage in day-to-day activities and contribute to project |
-| Team Lead                | Project Team Member  | Ensure team stays on track, work breakdowns, work assignment and provide updates to Project Manager |
-| Project Manager          | Project Team Member  | Ensure Team Lead is familiar with requirements and provide updates to Director/CEO |
+| Sales Representative     | Project Team Member  | Market the product by communicating its purpose and features |
+| IT Department            | Project Team Member  | Support the onboarding of customers and requests from the developers |
+| Developers               | Project Team Member  | Engage in day-to-day activities, be on call when needed, technical writing and contribute to project success |
+| Team Lead                | Project Team Member  | Monitor team progress, ensure team stays on track, run work breakdowns, organize work assignment and provide updates to Project Manager |
+| Project Manager          | Project Team Member  | Ensure Team Lead is familiar with requirements, provide updates to Director/CEO, break tasks |
 | Director/CEO             | Project Sponsor      | Ensure Project Manager is up to date on requirements and update Investors if needed |
-| Investors                | Secondary Stakeholder| Financial support |
-| Client Company           | Customer             | Provide feedback and requests |
-| General Public           | Future Customer      | Future feedback and requests |
-| Future External Companies| Future Customer      | Future feedback and requests |
-| Technology Manufacturers | Hardware/software supporter | Follow requirements and support changes|
+
+#### External Roles and Responsibilities
+
+| Name & Organization      | Project Role                 | Project Responsibilities |
+| Investors                | Secondary Stakeholder        | Provide financial support to the project |
+| Client Company           | Customer                     | Provide feedback and requests |
+| General Public           | Future Customer              | Offer future feedback and requests |
+| Future External Companies| Future Customer              | Offer future feedback and requests |
+| Technology Manufacturers | Hardware/software supporter  | Accommodate project requirements and support system changes |
 
 ## 7 PROJECT CHARTER APPROVAL
 
