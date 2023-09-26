@@ -2,7 +2,7 @@
 
 **Project Charter**:
 
-**Version**: 1.1
+**Version**: 1.4
 
 **Date**: September 26, 2023
 
@@ -14,8 +14,11 @@ Provide information on how the development and distribution of the Project Chart
 
 | Version # | Implemented By | Revision Date | Approved By | Approval Date | Reason |
 |-----------|----------------|---------------|-------------|---------------|--------|
-| 1.0       | Mia  | 09/24/23    | Cody      | 09/25/23    | Added product overview and project deliverables. |
-| 1.1       | Barbara  | 09/26/23    | Mia      | 09/26/23    | Added project objectives and requirements. |
+| 1.0       | Mia            | 09/24/23      | Cody        | 09/25/23      | Added product overview and project deliverables. |
+| 1.1       | Dan            | 09/25/23      | Cody        | 09/25/23      | Added project assumptions, constraints, and risks. |
+| 1.2       | Barbara        | 09/26/23      | Mia         | 09/26/23      | Added project objectives and requirements. |
+| 1.3       | Cody           | 09/26/23      | Mia         | 09/26/23      | Added descriptions of roles & responsibilies. |
+| 1.4       | Mia            | 09/26/23      | <name>      | <mm/dd/yy>    | Added timeline and executive milestones. |
 
 | Name | Email | Period of being project manager |
 | ---- | ----- | ------------------------------- |
@@ -33,7 +36,7 @@ The intended audience of the U↑ project charter is the project sponsor and sen
 
 U↑ is an internet-based phone system for company employees. Employees can make and receive calls over the internet using their desktop computers, smartphones, tablets, or other devices connected to the U↑ system. Each device connected to U↑ will be associated with the same business phone number for incoming and outgoing calls. Any connected device can make or receive calls using U↑ whenever and wherever necessary.
 
-The project will take place over an estimated [], with an estimated budget of [].
+The project will take place over an estimated 12 months, with an estimated budget of $2M.
 
 ## 3 JUSTIFICATION
 
@@ -44,41 +47,49 @@ The objectives of U↑ are as follows:
 1. Develop the system structure of U↑ the by the end of the first sprint. The developers will accomplish this goal by:
     - Researching the issue of communication over sockets between the server and clients.
     - Developing a document where it outlines how the system is going to work, what technologies are going to be used and explaining the choices that they made.
+
 Accomplishing this goal will ensure we have a good foundation when implementing the structure.
 
 2. Implement the system structure of U↑ the by the end of the first quarter. The developers will accomplish this goal by:
     - Making user stories and breaking them down into tasks.
-    - Having daily meetings to check up on the work people is doing.
+    - Having daily meetings to check up on the work people are doing.
+
 Accomplishing this goal will ensure we have a strong foundation when implementing future features.
 
 3. Basic Call processing by the end of the first quarter. The developers will accomplish this goal by:
     - Making user stories and breaking them down into tasks.
-    - Having daily meetings to check up on the work people is doing.
+    - Having daily meetings to check up on the work people are doing.
+
 Accomplishing this goal will ensure that our clients can successfully call whoever they need to reach.
 
-4. Dialing Plan Processing by the end of the  second quarter. The developers will accomplish this goal by:
+4. Dialing Plan Processing by the end of the second quarter. The developers will accomplish this goal by:
     - Making user stories and breaking them down into tasks.
-    - Having daily meetings to check up on the work people is doing.
+    - Having daily meetings to check up on the work people are doing.
+
 Accomplishing this goal will ensure that our clients don't have to worry about reaching the right person when dialing someone.
 
 5. System Console by the end of the second quarter. The developers will accomplish this goal by:
     - Making user stories and breaking them down into tasks.
-    - Having daily meetings to check up on the work people is doing.
+    - Having daily meetings to check up on the work people are doing.
+
 Accomplishing this goal will ensure that our clients have unique accounts.
 
 6. Users can create accounts by the end of the third quarter. The developers will accomplish this goal by:
     - Making user stories and breaking them down into tasks.
-    - Having daily meetings to check up on the work people is doing.
+    - Having daily meetings to check up on the work people are doing.
+
 Accomplishing this goal will ensure that our clients have personal accounts and can make and receive calls.
 
 7. Load balancing calls by the end of the third quarter. The developers will accomplish this goal by:
     - Making user stories and breaking them down into tasks.
-    - Having daily meetings to check up on the work people is doing.
+    - Having daily meetings to check up on the work people are doing.
+
 Accomplishing this goal will ensure that our servers wont be overloaded by the users.
 
 8. Billing user calls by the end of the third quarter. The developers will accomplish this goal by:
     - Making user stories and breaking them down into tasks.
     - Having daily meetings to check up on the work people is doing.
+
 Accomplishing this goal will ensure that our company gets paid so that we can keep developing this project.
 
 ### 3.2 High-Level Requirements
@@ -127,13 +138,25 @@ Im not sure what he means by this, its no where in the notes imma ask today :)
 
 ### 4.1 Timeline
 
-> [An example of a high-level timeline is provided below.]
+| Date (MM/YY) |     |
+| ------------ | --- |
+| 10/23        | Project plan finalized |
+| 11/23        | Requirements finalized and approved |
+| 04/24        | System prototypes developed |
+| 12/24        | System integrated into company |
 
 ### 4.2 Executive Milestones
 
 The table below lists the high-level Executive Milestones of the project and their estimated completion timeframe.
 
 | Executive Milestones | Estimated Completion Timeframe |
+| -------------------- | ------------------------------ |
+| Project plan created and approved | 2 weeks after Project Charter's initial draft is completed |
+| Visual prototypes developed | 8 weeks after requirements are finalized |
+| Software version 1 completed | 16 weeks after prototypes are completed |
+| Security and load testing of system | 4 weeks after completion of Version 1 |
+| Limited integration of system into company | 2 weeks after security and load testing |
+| Full system integration into company | 8 weeks after limited system integration |
 
 ## 5 ASSUMPTIONS, CONSTRAINTS AND RISKS
 
