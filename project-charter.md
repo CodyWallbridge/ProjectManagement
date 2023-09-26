@@ -1,28 +1,28 @@
 # Project Name
 
-**Project Charter**: 
+**Project Charter**:
 
-**Version**: 
+**Version**:
 
-**Date**: 
+**Date**:
 
-**Team Name**: 
+**Team Name**:
 
-# VERSION HISTORY
+## VERSION HISTORY
 
 Provide information on how the development and distribution of the Project Charter up to the final point of approval was controlled and tracked. Use the table below to provide the version number, the author implementing the version, the date of the version, the name of the person approving the version, the date that particular version was approved, and a brief description of the reason for creating the revised version.
 
 | Version # | Implemented By | Revision Date | Approved By | Approval Date | Reason |
 |-----------|----------------|---------------|-------------|---------------|--------|
-| 1.0       | <Author name>  | <mm/dd/yy>    | <name>      | <mm/dd/yy>    | <reason> |
+| 1.0       | Barbara  | <mm/dd/yy>    | <name>      | <mm/dd/yy>    | <reason> |
 
 | Name | Email | Period of being project manager |
 | ---- | ----- | ------------------------------- |
 | <team member 1 > | email | hello |
 
-# 1 INTRODUCTION
+## 1 INTRODUCTION
 
-## 1.1 Purpose of Project Charter
+### 1.1 Purpose of Project Charter
 
 > [Provide the purpose of the project charter.]
 
@@ -30,91 +30,153 @@ The <Project Name> project charter documents and tracks the necessary informatio
 
 The intended audience of the <Project Name> project charter is the project sponsor and senior leadership
 
-# 2 PROJECT AND PRODUCT OVERVIEW
+## 2 PROJECT AND PRODUCT OVERVIEW
 
 > [Typically, the description should answer who, what, when and where, in a concise manner. It should also state the estimated project duration (e.g., 18 months) and the estimated project budget (e.g., $1.5M)
 
-# 3 JUSTIFICATION
+## 3 JUSTIFICATION - me
 
-## 3.1 Objectives
+### 3.1 Objectives
 
 > [identify the objectives using SMART (Specific, Measurable, Attainable, Relevant, Time-bound)]
 
-- [Insert Objective 1]
-- [Insert Objective 2]
+The objectives of U↑ are as follows:
 
-## 3.2 High-Level Requirements
+1. Develop the system structure of U↑ the by the end of the first sprint. The developers will accomplish this goal by:
+    - Researching the issue of communication over sockets between the server and clients.
+    - Developing a document where it outlines how the system is going to work, what technologies are going to be used and explaining the choices that they made.
+Accomplishing this goal will ensure we have a good foundation when implementing the structure.
+
+2. Implement the system structure of U↑ the by the end of the first quarter. The developers will accomplish this goal by:
+    - Making user stories and breaking them down into tasks.
+    - Having daily meetings to check up on the work people is doing.
+Accomplishing this goal will ensure we have a strong foundation when implementing future features.
+
+3. Basic Call processing by the end of the first quarter. The developers will accomplish this goal by:
+    - Making user stories and breaking them down into tasks.
+    - Having daily meetings to check up on the work people is doing.
+Accomplishing this goal will ensure that our clients can successfully call whoever they need to reach.
+
+4. Dialing Plan Processing by the end of the  second quarter. The developers will accomplish this goal by:
+    - Making user stories and breaking them down into tasks.
+    - Having daily meetings to check up on the work people is doing.
+Accomplishing this goal will ensure that our clients don't have to worry about reaching the right person when dialing someone.
+
+5. System Console by the end of the second quarter. The developers will accomplish this goal by:
+    - Making user stories and breaking them down into tasks.
+    - Having daily meetings to check up on the work people is doing.
+Accomplishing this goal will ensure that our clients have unique accounts.
+
+6. Users can create accounts by the end of the third quarter. The developers will accomplish this goal by:
+    - Making user stories and breaking them down into tasks.
+    - Having daily meetings to check up on the work people is doing.
+Accomplishing this goal will ensure that our clients have personal accounts and can make and receive calls.
+
+7. Load balancing calls by the end of the third quarter. The developers will accomplish this goal by:
+    - Making user stories and breaking them down into tasks.
+    - Having daily meetings to check up on the work people is doing.
+Accomplishing this goal will ensure that our servers wont be overloaded by the users.
+
+8. Billing user calls by the end of the third quarter. The developers will accomplish this goal by:
+    - Making user stories and breaking them down into tasks.
+    - Having daily meetings to check up on the work people is doing.
+Accomplishing this goal will ensure that our company gets paid so that we can keep developing this project.
+
+### 3.2 High-Level Requirements
 
 | Req. # | Requirement Description |
 | ------ | ----------------------- |
+| 1 | There is a document describing the architecture of the system and explaining it|
+| 2 | There is a structure following the architecture of the first requirement, and producing more documentation if they decide to change it |
+| 3 | Users can send and receive calls using sockets |
+| 4 | Users calls are mapped from (IP address, port) |
+| 5 | There is an User Interface where the administrators can log in and use to control a network of phones |
+| 6 | Regular users can create ana account and originate or receive calls, they can also block other users or have privileges |
+| 7 | The Administrators can change the maximum number of callas allowed in the system  |
+| 9 | We successfully charge the users for making a call, taking into account, the regular fee, how many times they call, and discount rates for the periods |
 
-## 3.3 Major Deliverables
+### 3.3 Major Deliverables
 
 | Major Deliverable | Deliverable Description |
 | ----------------- | ----------------------- |
 
-## 3.4 Scope
+### 3.4 Scope
 
 > [Describe the inclusive and exclusive boundaries of the project. Specifically address items that are out of scope.]
 
-# 4 DURATION
+#### Project objective
 
-## 4.1 Timeline
+At U↑ we want to develop the most seamless interaction for users when utilizing the virtual phone.
+
+#### Inclusive Boundaries
+
+Im not sure what he means by this, its no where in the notes imma ask today :)
+
+#### Exclusive Boundaries
+
+#### Out of Scope
+
+- We are not automating load balancing.
+- We are not integrating with other calling software.
+
+## 4 DURATION
+
+### 4.1 Timeline
 
 > [An example of a high-level timeline is provided below.]
 
-## 4.2 Executive Milestones
+### 4.2 Executive Milestones
 
 The table below lists the high-level Executive Milestones of the project and their estimated completion timeframe.
 
 | Executive Milestones | Estimated Completion Timeframe |
 
-# 5 ASSUMPTIONS, CONSTRAINTS AND RISKS
+## 5 ASSUMPTIONS, CONSTRAINTS AND RISKS
 
-## 5.1 Assumptions
+### 5.1 Assumptions
 
 1. [Insert description of the first assumption.]
 2. [Insert description of the second assumption.]
 
-## 5.2 Constraints
+### 5.2 Constraints
 
 1. [Insert description of the first constraint.]
 2. [Insert description of the second constraint.]
 
-## 5.3 Risks
+### 5.3 Risks
 
 | Risk | Mitigation |
 | ---- | ---------- |
 
-# 6 PROJECT ORGANIZATION
+## 6 PROJECT ORGANIZATION
 
-## 6.1 Stakeholders (Internal and External)
+### 6.1 Stakeholders (Internal and External)
 
-## 6.2 Roles and Responsibilities
+### 6.2 Roles and Responsibilities
 
 This section describes the key roles supporting the project.
 
 | Name & Organization | Project Role | Project Responsibilities |
 | ------------------- | ------------ | ------------------------ |
 
-# 7 PROJECT CHARTER APPROVAL
+## 7 PROJECT CHARTER APPROVAL
 
-Signature: ________  Date: ________  
-Print Name: ________  
-Title: ________  
+Signature: ________  Date: ________
+Print Name: ________
+Title: ________
 Role: ________
 
-Signature: ________  Date: ________  
-Print Name: ________  
-Title: ________  
+Signature: ________  Date: ________
+Print Name: ________
+Title: ________
 Role: ________
 
-Signature: ________  Date: ________  
-Print Name: ________  
-Title: ________  
+Signature: ________  Date: ________
+Print Name: ________
+Title: ________
 Role: ________
 
-# APPENDIX A: REFERENCES
+## APPENDIX A: REFERENCES
 
 The following table summarizes the documents referenced in this document.
 
