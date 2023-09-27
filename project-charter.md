@@ -2,7 +2,7 @@
 
 **Project Charter**:
 
-**Version**: 1.5
+**Version**: 1.6
 
 **Date**: September 26, 2023
 
@@ -20,6 +20,7 @@ Provide information on how the development and distribution of the Project Chart
 | 1.3       | Cody           | 09/26/23      | Mia         | 09/26/23      | Added descriptions of roles & responsibility. |
 | 1.4       | Mia            | 09/26/23      | Mia         | 09/26/23      | Added timeline and executive milestones. |
 | 1.5       | Group          | 09/26/23      | Group       | 09/26/23      | Final Review. |
+| 1.5       | Dan            | 09/27/23      | Barbara     | 09/27/23      | Tweak assumptions and contains. |
 
 | Name | Email | Period of being project manager |
 | ---- | ----- | ------------------------------- |
@@ -116,15 +117,15 @@ The table below lists the high-level Executive Milestones of the project and the
 
 ### 5.1 Assumptions
 
-1. **Client-Server Communication**: Given the client-server model, it's assumed that the system's architecture will support seamless interaction between multiple clients and the central server via sockets.
-2. **Database Integrity**: It's presumed that the database, potentially supporting the system, will maintain a consistent state even with concurrent access from call processing and administration.
-3. **Billing Accuracy**: With varying rates based on dialed number, call duration, and timing, we assume the system can calculate bills with high precision to avoid discrepancies.
-4. **Client Adaptability**: Given that clients can be desktop apps, mobile apps, etc., it's assumed that all versions will provide a uniform user experience.
+1. **Client-Server Communication**: The system's architecture will support seamless interaction between multiple clients and the central server via sockets.
+2. **Database Integrity**: The database, potentially supporting the system, will maintain a consistent state even with concurrent access from call processing and administration.
+3. **Billing Accuracy**: The system can calculate bills with high precision to avoid discrepancies.
+4. **Client Adaptability**: All versions will provide a uniform user experience across clients using desktop, mobile, etc...
 5. **Singular Administrator Access**: Only one Administrator accesses the System Console at a time.
 
 ### 5.2 Constraints
 
-1. **4-Digit Dialing**: With a 4-digit dialing plan, the system has an inherent limitation on the number of unique extensions.
+1. **4-Digit Dialing**: The system has an inherent limitation on the number of unique extensions with a 4-digit dialing plan.
 2. **Socket-Only Communication**: The mandate that communication should exclusively occur over sockets restricts alternative communication methods.
 3. **Load Limits**: The system has an upper threshold for the number of concurrent calls it can handle, determined by the Administrator.
 
