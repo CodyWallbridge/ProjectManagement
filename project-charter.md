@@ -36,7 +36,7 @@ The intended audience of the U↑ project charter is the project sponsor and sen
 
 ## 2 PROJECT AND PRODUCT OVERVIEW
 
-U↑ is an internet-based phone system for company employees. Employees can make and receive calls over the Internet using their desktop computers, smartphones, tablets, or other devices connected to the U↑ system. Each user's device connected to U↑ will be associated with a unique business phone number for incoming and outgoing calls. Any connected device can make or receive calls using U↑ whenever and wherever necessary.
+U↑ is an internet-based phone system for company employees. Employees can make and receive calls over the Internet using their desktop computers, smartphones, tablets, or other devices connected to the U↑ system. Each of the user's devices connected to U↑ will be associated with a unique business phone number for incoming and outgoing calls. Any connected device can make or receive calls using U↑ whenever and wherever necessary.
 
 The project will take place over an estimated 12 months, with an estimated budget of $2M.
 
