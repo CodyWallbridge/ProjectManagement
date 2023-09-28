@@ -20,7 +20,7 @@ Provide information on how the development and distribution of the Project Chart
 | 1.3       | Cody           | 09/26/23      | Mia         | 09/26/23      | Added descriptions of roles & responsibility. |
 | 1.4       | Mia            | 09/26/23      | Mia         | 09/26/23      | Added timeline and executive milestones. |
 | 1.5       | Group          | 09/26/23      | Group       | 09/26/23      | Final Review. |
-| 1.5       | Dan            | 09/27/23      | Barbara     | 09/27/23      | Tweak assumptions and contains. |
+| 1.6       | Dan            | 09/27/23      | Barbara     | 09/27/23      | Tweak assumptions and contraints. |
 
 | Name | Email | Period of being project manager |
 | ---- | ----- | ------------------------------- |
@@ -30,13 +30,13 @@ Provide information on how the development and distribution of the Project Chart
 
 ### 1.1 Purpose of Project Charter
 
-The U↑ project charter documents and tracks the necessary information required by decision maker(s) to approve the project for funding. The project charter should include the needs, scope, justification, and resource commitment as well as the project’s sponsor(s) decision to proceed or not to proceed with the project. It is created during the Initiating Phase of the project.
+The U↑ project charter documents and tracks the necessary information required by the decision maker(s) to approve the project for funding. The project charter should include the needs, scope, justification, and resource commitment as well as the project’s sponsor(s) decision to proceed or not to proceed with the project. It is created during the Initiating Phase of the project.
 
 The intended audience of the U↑ project charter is the project sponsor and senior leadership.
 
 ## 2 PROJECT AND PRODUCT OVERVIEW
 
-U↑ is an internet-based phone system for company employees. Employees can make and receive calls over the internet using their desktop computers, smartphones, tablets, or other devices connected to the U↑ system. Each user's devices connected to U↑ will be associated with a unique business phone number for incoming and outgoing calls. Any connected device can make or receive calls using U↑ whenever and wherever necessary.
+U↑ is an internet-based phone system for company employees. Employees can make and receive calls over the Internet using their desktop computers, smartphones, tablets, or other devices connected to the U↑ system. Each user's device connected to U↑ will be associated with a unique business phone number for incoming and outgoing calls. Any connected device can make or receive calls using U↑ whenever and wherever necessary.
 
 The project will take place over an estimated 12 months, with an estimated budget of $2M.
 
@@ -46,24 +46,24 @@ The project will take place over an estimated 12 months, with an estimated budge
 
 The objectives of U↑ are as follows:
 
-- Reduce downtime in the project after the system has been up and running for a month. The Administrators will accomplish this goal by offering training sessions. Accomplishing this will reduce the time where people are waiting for a response.
+- Reduce downtime in the project after the system has been up and running for a month. The Administrators will accomplish this goal by offering training sessions. Accomplishing this will reduce the time when people are waiting for a response.
 
-- Cut down onboarding time by 10% by the the end of December 2024. The Administrators will accomplish this goal by asking for feedback after onboarding new customers in how to make onboarding faster for them. Accomplishing this will make communications more efficiently and happier customers.
+- Cut down onboarding time by 10% by the end of December 2024. The Administrators will accomplish this goal by asking for feedback after onboarding new customers on how to make onboarding faster for them. Accomplishing this will make communications more efficient and lead to happier customers.
 
-- When making a call it should be rerouted within 5 seconds by the end of December 2024. The developer willa accomplish this goal by having a clean structure and implementing clean code. Accomplishing this goal will make the users have a smooth experience with the phone.
+- When making a call it should be rerouted within 5 seconds by the end of December 2024. The developer will accomplish this goal by having a clean structure and implementing clean code. Accomplishing this goal will make the users have a smooth experience with the phone.
 
 ### 3.2 High-Level Requirements
 
 | Req. # | Requirement Description |
 | ------ | ----------------------- |
-| 1 | There is a document describing the architecture of the system and explaining it|
-| 2 | There is a structure following the architecture of the first requirement, and producing more documentation if they decide to change it |
-| 3 | Users can send and receive calls using sockets |
-| 4 | Users calls are mapped from (IP address, port) |
-| 5 | There is an User Interface where the administrators can log in and use to control a network of phones |
-| 6 | Regular users can create ana account and originate or receive calls, they can also block other users or have privileges |
-| 7 | The Administrators can change the maximum number of callers allowed in the system  |
-| 9 | We successfully charge the users for making a call, taking into account, the regular fee, how many times they call, and discount rates for the periods |
+| 1 | There is a document describing the system architecture. |
+| 2 | There is a structure following the architecture of the first requirement and producing more documentation if they decide to change it. |
+| 3 | Users can send and receive calls using sockets. |
+| 4 | Users calls are mapped from IP address and port. |
+| 5 | There is a User Interface that the Administrators can log in to and use to control a network of phones. |
+| 6 | Regular users can create an account that can originate or receive calls, and block other users or have privileges. |
+| 7 | The Administrators can change the maximum number of callers allowed in the system.  |
+| 9 | We successfully charge the users a price for making a call based on the regular fee, how many times they call, and discount rates for the periods. |
 
 ### 3.3 Major Deliverables
 
@@ -71,7 +71,7 @@ The objectives of U↑ are as follows:
 | ----------------- | ----------------------- |
 | Architecture design document | A high-level document describing the functional requirements and system architecture for the U↑ system. |
 | Client app UI mock-ups | Interactive user interface mock-ups representing how the U↑ mobile and desktop apps will look and respond to user interaction. |
-| System back-end and console | The server software and database for the U↑ system that can be interacted with and tested through an administrator console. |
+| System back-end and console | Server software and database for the U↑ system that can be interacted with and tested through an administrator console. |
 | Client app integration | Functional client applications that connect to the U↑ back-end and database to make and receive calls. |
 | System metrics & performance report | A report detailing the measured increases in efficiency, customer satisfaction, and system availability after implementing U↑ within the company. |
 
@@ -79,15 +79,15 @@ The objectives of U↑ are as follows:
 
 #### Inclusive Boundaries
 
-- Calls will be supported inside the client company.
-- Support only audio and text.
-- We support major tech hardware and software.
+- Support calls inside the client company.
+- Support audio and text.
+- Support major tech hardware and software.
 
 #### Exclusive Boundaries
 
-- We are not integrating with other calling software.
-- We are not supported to calls outside the client company.
-- We do not support video calls.
+- No integration with other calling software.
+- No support for calls outside the client company.
+- No support for video calls.
 
 ## 4 DURATION
 
@@ -117,7 +117,7 @@ The table below lists the high-level Executive Milestones of the project and the
 
 ### 5.1 Assumptions
 
-1. **Client-Server Communication**: The system's architecture will support seamless interaction between multiple clients and the central server via sockets.
+1. **Client-Server Communication**: The system architecture will support seamless interaction between multiple clients and the central server via sockets.
 2. **Database Integrity**: The database, potentially supporting the system, will maintain a consistent state even with concurrent access from call processing and administration.
 3. **Billing Accuracy**: The system can calculate bills with high precision to avoid discrepancies.
 4. **Client Adaptability**: All versions will provide a uniform user experience across clients using desktop, mobile, etc...
@@ -169,10 +169,10 @@ This section describes the key roles supporting the project.
 | ------------------- | ------------ | ------------------------ |
 | Sales Representative     | Project Team Member  | Market the product by communicating its purpose and features |
 | IT Department            | Project Team Member  | Support the onboarding of customers and requests from the developers |
-| Developers               | Project Team Member  | Engage in day-to-day activities, be on call when needed, technical writing and contribute to project success |
-| Team Lead                | Project Team Member  | Monitor team progress, ensure team stays on track, run work breakdowns, organize work assignment and provide updates to Project Manager |
+| Developers               | Project Team Member  | Engage in day-to-day activities, be on call when needed, technical writing, and contribute to project success |
+| Team Lead                | Project Team Member  | Monitor team progress, ensure the team stays on track, run work breakdowns, organize work assignments and provide updates to Project Manager |
 | Project Manager          | Project Team Member  | Ensure Team Lead is familiar with requirements, provide updates to Director/CEO, break tasks |
-| Director/CEO             | Project Sponsor      | Ensure Project Manager is up to date on requirements and update Investors if needed |
+| Director/CEO             | Project Sponsor      | Ensure Project Manager is up to date on the requirements and update Investors if needed |
 
 #### External Roles and Responsibilities
 
