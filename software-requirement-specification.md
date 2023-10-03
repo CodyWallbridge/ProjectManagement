@@ -15,31 +15,38 @@
 | Date       | Description                      | Author        | Comments             |
 |------------|----------------------------------|---------------|----------------------|
 | 10/02/23   | Making the word file into a .md  | Barbara       |                      |
+| 10/03/23 | Entered non-functional requirements | Daniel | |
 
 ---
 
 ## Table of Contents
 
-1. [Introduction](#1-introduction)
-   1. [Purpose](#11-purpose)
-   2. [Definitions, Acronyms, and Abbreviations](#12-definitions-acronyms-and-abbreviations)
-   3. [References](#13-references)
-2. [General Description](#2-general-description)
-   1. [User Characteristics](#21-user-characteristics)
-   2. [Assumptions and Dependencies](#22-assumptions-and-dependencies)
-3. [Specific Requirements](#3-specific-requirements)
-   1. [Functional Requirements](#31-functional-requirements)
-   2. [Non-Functional Requirements](#32-non-functional-requirements)
-      1. [Performance](#321-performance)
-      2. [Reliability](#322-reliability)
-      3. [Availability](#323-availability)
-      4. [Security](#324-security)
-      5. [Interfaces](#325-interfaces)
-   3. [Design Constraints](#33-design-constraints)
-   4. [Legal, Copyright, and Other Notices](#34-legal-copyright-and-other-notices)
-   5. [Other Requirements](#35-other-requirements)
-4. [Other Supporting Documents](#4-other-supporting-documents)
-   - [Appendices](#a-appendices)
+- [U↑ (U Up)](#u-u-up)
+  - [Revision History](#revision-history)
+  - [Table of Contents](#table-of-contents)
+  - [1. Introduction](#1-introduction)
+    - [1.1 Purpose](#11-purpose)
+    - [1.2 Definitions, Acronyms, and Abbreviations](#12-definitions-acronyms-and-abbreviations)
+    - [1.3 References](#13-references)
+  - [2. General Description](#2-general-description)
+    - [2.1 User Characteristics](#21-user-characteristics)
+    - [2.2 Assumptions and Dependencies](#22-assumptions-and-dependencies)
+  - [3. Specific Requirements](#3-specific-requirements)
+    - [3.1 Functional Requirements](#31-functional-requirements)
+      - [3.1.1 Functionality](#311-functionality)
+      - [3.1.2 Usability](#312-usability)
+      - [3.1.3 Accessibility](#313-accessibility)
+    - [3.2 Non-Functional Requirements](#32-non-functional-requirements)
+      - [3.2.1 Performance](#321-performance)
+      - [3.2.2 Reliability](#322-reliability)
+      - [3.2.3 Availability](#323-availability)
+      - [3.2.4 Security](#324-security)
+      - [3.2.3 Interfaces](#323-interfaces)
+    - [3.3 Design Constraints](#33-design-constraints)
+    - [3.4 Legal, Copyright, and Other Notices](#34-legal-copyright-and-other-notices)
+    - [3.5 Other Requirements](#35-other-requirements)
+  - [4 Other Supporting Documents](#4-other-supporting-documents)
+    - [A. Appendices](#a-appendices)
 
 ---
 
@@ -99,28 +106,36 @@ This section describes specific features of the software project. Specify the re
 
 ### 3.2 Non-Functional Requirements
 
-Non-functional requirements may exist for the following attributes. Often these requirements must be achieved at a system-wide level rather than at a unit level. State the requirements in the following sections in measurable terms (e.g., 95% of transactions shall be processed in less than a second, system downtime may not exceed 1 minute per day, > 30-day MTBF value, etc).
-
-This section describes non-functional features of the software project. Specify the requirements as user stories.
+This section outlines the non-functional requirements crucial for the U↑ internet-based phone system, focusing on performance, reliability, availability, security, and interfaces.
 
 #### 3.2.1 Performance
 
-- The product shall take initial load time depending on internet connection strength which also depends on the media from which the product is run.
+- **System Latency:** Call rerouting should happen within a 5-second window.
+- **Concurrency:** The system must support at least 500 concurrent calls without degradation in performance.
+- **Scalability:** The system should accommodate a 20% increase in user devices annually without requiring a system overhaul.
 
 #### 3.2.2 Reliability
 
-- The system shall provide RAID V Disk Stripping on all database storage disks.
+- **Data Integrity:** The system must achieve a data accuracy rate of 99.999%.
+- **Backup:** Weekly automated backups are mandatory, with a successful restore rate of at least 99%.
 
 #### 3.2.3 Availability
 
-- The system shall provide a contractual agreement with an internet service provider for T3 access with 99.9999% availability.
+- **Uptime:** The system should guarantee 99.9% uptime, aside from planned maintenance.
+- **Failover Capabilities:** Advanced call routing algorithms and fallback mechanisms must be in place to manage unforeseen call scenarios.
+- **Maintenance Window:** Planned maintenance must be confined to off-peak hours, occurring no more than once a month.
 
 #### 3.2.4 Security
 
-- The system shall use secure sockets in all transactions that include any confidential customer information.
-- The system shall automatically log out all customers after a period of inactivity.
+- **Data Encryption:** All calls must be end-to-end encrypted.
+- **Authentication:** Multi-factor authentication must be implemented for both Administrators and regular users.
+- **Session Timeout:** Administrator sessions in the User Interface should automatically timeout after 30 minutes of inactivity.
 
-#### 3.2.5 Interfaces
+#### 3.2.3 Interfaces
+
+- **User Interface:** The UI must be intuitive and require no more than one hour of training for efficient utilization.
+- **Onboarding Time:** New users should be able to complete the onboarding process within 20 minutes, on average.
+- **Accessibility:** The system should be usable across desktop computers, smartphones, tablets, and other devices.
 
 ### 3.3 Design Constraints
 
