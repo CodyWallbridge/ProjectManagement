@@ -41,7 +41,7 @@
       - [3.2.2 Reliability](#322-reliability)
       - [3.2.3 Availability](#323-availability)
       - [3.2.4 Security](#324-security)
-      - [3.2.3 Interfaces](#323-interfaces)
+      - [3.2.5 Interfaces](#325-interfaces)
     - [3.3 Design Constraints](#33-design-constraints)
     - [3.4 Legal, Copyright, and Other Notices](#34-legal-copyright-and-other-notices)
     - [3.5 Other Requirements](#35-other-requirements)
@@ -131,7 +131,7 @@ This section outlines the non-functional requirements crucial for the U↑ inter
 - **Authentication:** Multi-factor authentication must be implemented for both Administrators and regular users.
 - **Session Timeout:** Administrator sessions in the User Interface should automatically timeout after 30 minutes of inactivity.
 
-#### 3.2.3 Interfaces
+#### 3.2.5 Interfaces
 
 - **User Interface:** The UI must be intuitive and require no more than one hour of training for efficient utilization.
 - **Onboarding Time:** New users should be able to complete the onboarding process within 20 minutes, on average.
