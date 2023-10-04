@@ -2,9 +2,9 @@
 
 **Software Requirements Specification**:
 
-**Version:** 0.0
+**Version:** 0.2
 
-**Date:** 10/02/23
+**Date:** 10/04/23
 
 **Your Team Name:** Shaowei's Angels
 
@@ -15,6 +15,9 @@
 | Date       | Description                      | Author        | Comments             |
 |------------|----------------------------------|---------------|----------------------|
 | 10/02/23   | Making the word file into a .md  | Barbara       |                      |
+| 10/03/23   | Entered functional requirements  | Mia           |                      |
+| 10/03/23   | Entering sections 3.3-4          | Cody          |                      |
+| 10/03/23   | Entering sections 1 and 2        | Barb          |                      |
 
 ---
 
@@ -90,6 +93,7 @@ This will be the largest and most important section of the SRS. The customer req
 ### 3.1 Functional Requirements
 
 #### 3.1.1 Allow audio communication between users
+
 - A user shall be able to dial other users' contact numbers.
 - The system shall inform the user if the number they have dialed is not associated with a user.
 - The system shall inform the user if the user whose number they have dialed is unavailable.
@@ -101,7 +105,8 @@ This will be the largest and most important section of the SRS. The customer req
 - A user shall be able to view the users participating in a call they are a part of.
 - The system shall list the users a user has most recently called with.
 
-#### 3.1.2 Allow text-based communication between users 
+#### 3.1.2 Allow text-based communication between users
+
 - A user shall be able to send text messages to an individual user at a time.
 - The system shall notify users of incoming text messages.
 - The system shall store a user's text conversation history with other users.
@@ -109,6 +114,7 @@ This will be the largest and most important section of the SRS. The customer req
 - The system shall list the users a user has most recently contacted via text.
 
 #### 3.1.3 Manage user accounts
+
 - A user shall be able to register an account in the system.
 - A user shall be able to remove their account from the system.
 - The system shall authenticate user credentials to access that user's account.
@@ -118,11 +124,13 @@ This will be the largest and most important section of the SRS. The customer req
 - A user shall be able to prevent certain user accounts from contacting them.
 
 #### 3.1.4 Allow users to search system records
+
 - A user shall be able to search for other users within the system.
 - A user shall be able to search for keywords within their text conversation history.
 - The system shall paginate all search results.
 
 #### 3.1.5 Provide technical support to users
+
 - The system shall provide instructions on its common uses.
 - The system shall display a list of frequently asked questions.
 - The system shall display troubleshooting advice.
@@ -159,33 +167,39 @@ This section describes non-functional features of the software project. Specify 
 ### 3.3 Design Constraints
 
 #### 3.3.1 Standard Development Tools
+
 - The system shall be built using a standard web page development tool that conforms to either IBM’s CUA standards or Microsoft’s GUI standards.
 
 #### 3.3.2 Web Based Product
+
 - There are no memory requirements
 - The product must be stored in such a way that allows the client easy access to it.
 - Response time for loading the product should take no longer than five minutes.
+- A general knowledge of basic computer skills is required to use the product.
 
-- A general knowledge of basic computer skills is required to use the product
 ### 3.4 Legal, Copyright, and Other Notices
+
 - Call app should display the disclaimers, copyright, word mark, trademark and product warranties of Shaowei's Angels
 
 ### 3.5 Other Requirements
 
 #### 3.5.1 Configuration Management Tool
+
 - The source code developed for this system shall be maintained in configuration management tool.
 
 #### 3.5.2 Licensing Requirements
+
 - Not Applicable
 
 #### 3.5.3 Applicable Standards
+
 - It shall be as per the industry standard.
 
 ### 3.5.4 Purchased Components
+
 - Not Applicable
 
 ## 4 Other Supporting Documents
-
 
 ### A. Appendices
 
