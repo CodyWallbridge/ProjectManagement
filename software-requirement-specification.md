@@ -158,13 +158,34 @@ This section describes non-functional features of the software project. Specify 
 
 ### 3.3 Design Constraints
 
+#### 3.3.1 Standard Development Tools
+- The system shall be built using a standard web page development tool that conforms to either IBM’s CUA standards or Microsoft’s GUI standards.
+
+#### 3.3.2 Web Based Product
+- There are no memory requirements
+- The product must be stored in such a way that allows the client easy access to it.
+- Response time for loading the product should take no longer than five minutes.
+
+- A general knowledge of basic computer skills is required to use the product
 ### 3.4 Legal, Copyright, and Other Notices
+- Call app should display the disclaimers, copyright, word mark, trademark and product warranties of Shaowei's Angels
 
 ### 3.5 Other Requirements
 
-Catchall section for any additional requirements.
+#### 3.5.1 Configuration Management Tool
+- The source code developed for this system shall be maintained in configuration management tool.
+
+#### 3.5.2 Licensing Requirements
+- Not Applicable
+
+#### 3.5.3 Applicable Standards
+- It shall be as per the industry standard.
+
+### 3.5.4 Purchased Components
+- Not Applicable
 
 ## 4 Other Supporting Documents
+
 
 ### A. Appendices
 
