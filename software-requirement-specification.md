@@ -29,6 +29,11 @@
    2. [Assumptions and Dependencies](#22-assumptions-and-dependencies)
 3. [Specific Requirements](#3-specific-requirements)
    1. [Functional Requirements](#31-functional-requirements)
+      1. [Allow audio communication between users](#311-allow-audio-communication-between-users)
+      2. [Allow text-based communication between users](#312-allow-text-based-communication-between-users)
+      3. [Manage user accounts](#313-manage-user-accounts)
+      4. [Allow users to search system records](#314-allow-users-to-search-system-records)
+      5. [Provide technical support to users](#315-provide-technical-support-to-users)
    2. [Non-Functional Requirements](#32-non-functional-requirements)
       1. [Performance](#321-performance)
       2. [Reliability](#322-reliability)
@@ -84,18 +89,47 @@ This will be the largest and most important section of the SRS. The customer req
 
 ### 3.1 Functional Requirements
 
-This section describes specific features of the software project. Specify the requirements as user stories.
+#### 3.1.1 Allow audio communication between users
+- A user shall be able to dial other users' contact numbers.
+- The system shall inform the user if the number they have dialed is not associated with a user.
+- The system shall inform the user if the user whose number they have dialed is unavailable.
+- A user shall be able to make an outgoing call to an individual user at a time.
+- A user shall be able to end an ongoing call.
+- The system shall inform users of incoming calls.
+- The system shall display information about the caller when a call is incoming.
+- The system shall indicate to a user when they are part of an ongoing call.
+- A user shall be able to view the users participating in a call they are a part of.
+- The system shall list the users a user has most recently called with.
 
-- Sell Configured to Ordered Products.
-- The system shall display all the products that can be configured.
-- The system shall allow the user to select the product to configure.
-- The system shall display all the available components of the product to configure.
+#### 3.1.2 Allow text-based communication between users 
+- A user shall be able to send text messages to an individual user at a time.
+- The system shall notify users of incoming text messages.
+- The system shall store a user's text conversation history with other users.
+- A user shall be able to delete their text conversation history with other users.
+- The system shall list the users a user has most recently contacted via text.
 
-#### 3.1.1 Functionality
+#### 3.1.3 Manage user accounts
+- A user shall be able to register an account in the system.
+- A user shall be able to remove their account from the system.
+- The system shall authenticate user credentials to access that user's account.
+- Each user account shall have a unique contact number.
+- The system shall have a directory of all users' profiles.
+- A user shall be able to choose personal information to display in their profile.
+- A user shall be able to prevent certain user accounts from contacting them.
 
-#### 3.1.2 Usability
+#### 3.1.4 Allow users to search system records
+- A user shall be able to search for other users within the system.
+- A user shall be able to search for keywords within their text conversation history.
+- The system shall paginate all search results.
 
-#### 3.1.3 Accessibility
+#### 3.1.5 Provide technical support to users
+- The system shall provide instructions on its common uses.
+- The system shall display a list of frequently asked questions.
+- The system shall display troubleshooting advice.
+- A user shall be able to send text-based help requests to customer support.
+- A user shall be able to supply customer and product information in a help request.
+- A user shall be able to contact customer support personnel internally through the system.
+- The system shall display instructions to contact customer support externally to the system in the case of errors or outages.
 
 ### 3.2 Non-Functional Requirements
 
