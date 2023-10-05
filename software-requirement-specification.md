@@ -135,7 +135,9 @@ This section outlines the non-functional requirements crucial for the U↑ inter
 
 - **User Interface:** The UI must be intuitive and require no more than one hour of training for efficient utilization.
 - **Onboarding Time:** New users should be able to complete the onboarding process within 20 minutes, on average.
-- **Accessibility:** The system should be usable across desktop computers, smartphones, tablets, and other devices.
+- **Hardware Compatibility:** The system should be usable across desktop computers, smartphones, tablets, and other devices.
+- **Network Protocol:** Communication between devices and the central server should be standardized over TCP/IP using secure sockets, ensuring a packet drop rate of less than 0.1%.
+- **API Integration:** The system should have an API with a response time of no more than 2 seconds for integration with other internal systems or third-party services.
 
 ### 3.3 Design Constraints
 
