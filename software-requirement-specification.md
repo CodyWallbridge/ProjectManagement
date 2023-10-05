@@ -2,9 +2,9 @@
 
 **Software Requirements Specification**:
 
-**Version:** 0.3
+**Version:** 1.0
 
-**Date:** 10/04/23
+**Date:** 10/05/23
 
 **Your Team Name:** Shaowei's Angels
 
@@ -12,15 +12,13 @@
 
 ## Revision History
 
-| Date       | Description                      | Author        | Comments             |
-|------------|----------------------------------|---------------|----------------------|
-| 10/02/23   | Making the word file into a .md  | Barbara       |                      |
-| 10/03/23   | Entered functional requirements  | Mia           |                      |
-| 10/03/23   | Entering sections 3.3-4          | Cody          |                      |
-| 10/03/23 | Entered non-functional requirements | Daniel | |
-| 10/03/23   | Entering sections 1 and 2        | Barb          |                      |
-
-
+| Date       | Description                         | Author        | Comments             |
+|------------|-------------------------------------|---------------|----------------------|
+| 10/02/23   | Making the word file into a .md     | Barbara       |                      |
+| 10/03/23   | Entered functional requirements     | Mia           |                      |
+| 10/03/23   | Entering sections 3.3-4             | Cody          |                      |
+| 10/03/23   | Entered non-functional requirements | Daniel        |                      |
+| 10/04/23   | Entering sections 1 and 2           | Barb          |                      |
 
 ---
 
@@ -58,7 +56,7 @@
       - [3.5.1 Configuration Management Tool](#351-configuration-management-tool)
       - [3.5.2 Licensing Requirements](#352-licensing-requirements)
       - [3.5.3 Applicable Standards](#353-applicable-standards)
-    - [3.5.4 Purchased Components](#354-purchased-components)
+      - [3.5.4 Purchased Components](#354-purchased-components)
   - [4 Other Supporting Documents](#4-other-supporting-documents)
     - [A. Appendices](#a-appendices)
 
