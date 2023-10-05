@@ -2,9 +2,9 @@
 
 **Software Requirements Specification**:
 
-**Version:** 0.0
+**Version:** 1.0
 
-**Date:** 10/02/23
+**Date:** 10/05/23
 
 **Your Team Name:** Shaowei's Angels
 
@@ -12,10 +12,13 @@
 
 ## Revision History
 
-| Date       | Description                      | Author        | Comments             |
-|------------|----------------------------------|---------------|----------------------|
-| 10/02/23   | Making the word file into a .md  | Barbara       |                      |
-| 10/03/23 | Entered non-functional requirements | Daniel | |
+| Date       | Description                         | Author        | Comments             |
+|------------|-------------------------------------|---------------|----------------------|
+| 10/02/23   | Making the word file into a .md     | Barbara       |                      |
+| 10/03/23   | Entered functional requirements     | Mia           |                      |
+| 10/03/23   | Entering sections 3.3-4             | Cody          |                      |
+| 10/03/23   | Entered non-functional requirements | Daniel        |                      |
+| 10/04/23   | Entering sections 1 and 2           | Barb          |                      |
 
 ---
 
@@ -30,7 +33,8 @@
     - [1.3 References](#13-references)
   - [2. General Description](#2-general-description)
     - [2.1 User Characteristics](#21-user-characteristics)
-    - [2.2 Assumptions and Dependencies](#22-assumptions-and-dependencies)
+    - [2.2 Assumptions](#22-assumptions)
+    - [2.3Dependencies](#23-dependencies)
   - [3. Specific Requirements](#3-specific-requirements)
     - [3.1 Functional Requirements](#31-functional-requirements)
       - [3.1.1 Allow audio communication between users](#311-allow-audio-communication-between-users)
@@ -52,7 +56,7 @@
       - [3.5.1 Configuration Management Tool](#351-configuration-management-tool)
       - [3.5.2 Licensing Requirements](#352-licensing-requirements)
       - [3.5.3 Applicable Standards](#353-applicable-standards)
-    - [3.5.4 Purchased Components](#354-purchased-components)
+      - [3.5.4 Purchased Components](#354-purchased-components)
   - [4 Other Supporting Documents](#4-other-supporting-documents)
     - [A. Appendices](#a-appendices)
 
@@ -60,17 +64,21 @@
 
 ## 1. Introduction
 
-[You may need to refine your scope/purpose defined in the project charter after eliciting requirements with stakeholders].
-
-The introduction to the Software Requirement Specification (SRS) document should provide an overview of the complete SRS document. While writing this document, please remember that this document should contain all the information needed by a software engineer to adequately design and implement the software product described by the requirements listed in this document. (Note: the following subsection annotations are largely taken from the IEEE Guide to SRS).
+The Software Requirements Specification (SRS) begins by offering a comprehensive overview of the entire document, encompassing its purpose, scope, definitions, acronyms, abbreviations, references, and an outline of its content. This document serves the purpose of extensively examining and providing a deep understanding of the U↑ (U Up) software system, primarily by elaborating on the problem statement. Furthermore, it places emphasis on identifying the capabilities required by stakeholders and addressing their needs while defining high-level product features. The document proceeds to outline the intricate requirements of the U↑ software system.
 
 ### 1.1 Purpose
 
-What is the purpose of this SRS and the (intended) audience for which it is written.
+The primary purpose of this Software Requirements Specification (SRS) is to establish a comprehensive and detailed set of specifications for the development of U↑ is an internet-based phone system for our company employees. This document aims to define the functional and non-functional requirements of the software, outline its intended features and capabilities, and provide a clear roadmap for its development.
+
+By creating this SRS, we aim to ensure a thorough understanding of the project's scope, objectives, and technical specifications among all stakeholders, including developers, designers, and clients. It will serve as a vital reference guide throughout the development process, helping to maintain consistency, meet user expectations, and ultimately deliver a high-quality, reliable, and efficient internet-based phone call software solution.
 
 ### 1.2 Definitions, Acronyms, and Abbreviations
 
-This subsection should provide the definitions of all terms, acronyms, and abbreviations required to properly interpret the SRS. This information may be provided by reference to one or more appendices in the SRS or by reference to other documents.
+| Acronym / Abbreviation  | Definition                |
+|-------------------------|---------------------------|
+|  CUA                    |  Common User Access       |
+|  GUI                    |  Graphical User Interface |
+|  OS                     |  Operating System |
 
 ### 1.3 References
 
@@ -81,17 +89,28 @@ This subsection should:
 3. Specify the sources from which the references can be obtained.
 This information may be provided by reference to an appendix or to another document.
 
-## 2. General Description
+Which format is for the references (?)
 
-This section of the SRS should describe the general factors that affect the product and its requirements. It should be made clear that this section does not state specific requirements; it only makes those requirements easier to understand.
+- I referenced the example given and the IEEE format stuff
+
+## 2. General Description
 
 ### 2.1 User Characteristics
 
-This subsection of the SRS should describe those general characteristics of the eventual users of the product that will affect the specific requirements. (See the IEEE Guide to SRS for more details).
+- Company Employees: The main users of U↑, we can assume they know how to use the internet. The developers will make the UI easy to use but after a couple uses they should know how to intuitively use U↑.
+- Administrators: They will manage the maximum number of callers allowed in the system. They will be very knowledgeable of the system.
 
-### 2.2 Assumptions and Dependencies
+### 2.2 Assumptions
 
-This subsection of the SRS should list each of the factors that affect the requirements stated in the SRS. These factors are not design constraints on the software but are, rather, any changes to them that can affect the requirements in the SRS. For example, an assumption might be that a specific operating system will be available on the hardware designated for the software product. If, in fact, the operating system is not available, the SRS would then have to change accordingly.
+- All calls will be made on stable internet
+- There is going to be some training and resources will be given to the company.
+- We assume to give support to the companies for the first month
+
+### 2.3 Dependencies
+
+- The OS of the system that the user is going to use to make the calls
+- When we make a change that deprecates the old version, the users need to update the software as soon as possible.
+- If the network is not stable the quality of the call might be affected, or the messages wont be delivered on time
 
 ## 3. Specific Requirements
 
@@ -99,7 +118,8 @@ This will be the largest and most important section of the SRS. The customer req
 
 ### 3.1 Functional Requirements
 
-#### 3.1.1 Allow audio communication between users
+#### 3.1.1 Allow Audio Communication Between Users
+
 - A user shall be able to dial other users' contact numbers.
 - The system shall inform the user if the number they have dialed is not associated with a user.
 - The system shall inform the user if the user whose number they have dialed is unavailable.
@@ -111,14 +131,16 @@ This will be the largest and most important section of the SRS. The customer req
 - A user shall be able to view the users participating in a call they are a part of.
 - The system shall list the users a user has most recently called with.
 
-#### 3.1.2 Allow text-based communication between users 
+#### 3.1.2 Allow Text-Based Communication Between Users
+
 - A user shall be able to send text messages to an individual user at a time.
 - The system shall notify users of incoming text messages.
 - The system shall store a user's text conversation history with other users.
 - A user shall be able to delete their text conversation history with other users.
 - The system shall list the users a user has most recently contacted via text.
 
-#### 3.1.3 Manage user accounts
+#### 3.1.3 Manage User Accounts
+
 - A user shall be able to register an account in the system.
 - A user shall be able to remove their account from the system.
 - The system shall authenticate user credentials to access that user's account.
@@ -127,12 +149,14 @@ This will be the largest and most important section of the SRS. The customer req
 - A user shall be able to choose personal information to display in their profile.
 - A user shall be able to prevent certain user accounts from contacting them.
 
-#### 3.1.4 Allow users to search system records
+#### 3.1.4 Allow Users to Search System Records
+
 - A user shall be able to search for other users within the system.
 - A user shall be able to search for keywords within their text conversation history.
 - The system shall paginate all search results.
 
-#### 3.1.5 Provide technical support to users
+#### 3.1.5 Provide Technical Support to Users
+
 - The system shall provide instructions on its common uses.
 - The system shall display a list of frequently asked questions.
 - The system shall display troubleshooting advice.
@@ -179,33 +203,39 @@ This section outlines the non-functional requirements crucial for the U↑ inter
 ### 3.3 Design Constraints
 
 #### 3.3.1 Standard Development Tools
+
 - The system shall be built using a standard web page development tool that conforms to either IBM’s CUA standards or Microsoft’s GUI standards.
 
 #### 3.3.2 Web Based Product
+
 - There are no memory requirements
 - The product must be stored in such a way that allows the client easy access to it.
 - Response time for loading the product should take no longer than five minutes.
+- A general knowledge of basic computer skills is required to use the product.
 
-- A general knowledge of basic computer skills is required to use the product
 ### 3.4 Legal, Copyright, and Other Notices
+
 - Call app should display the disclaimers, copyright, word mark, trademark and product warranties of Shaowei's Angels
 
 ### 3.5 Other Requirements
 
 #### 3.5.1 Configuration Management Tool
+
 - The source code developed for this system shall be maintained in configuration management tool.
 
 #### 3.5.2 Licensing Requirements
+
 - Not Applicable
 
 #### 3.5.3 Applicable Standards
+
 - It shall be as per the industry standard.
 
 ### 3.5.4 Purchased Components
+
 - Not Applicable
 
 ## 4 Other Supporting Documents
-
 
 ### A. Appendices
 

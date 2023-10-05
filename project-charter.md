@@ -20,7 +20,7 @@ Provide information on how the development and distribution of the Project Chart
 | 1.3       | Cody           | 09/26/23      | Mia         | 09/26/23      | Added descriptions of roles & responsibility. |
 | 1.4       | Mia            | 09/26/23      | Mia         | 09/26/23      | Added timeline and executive milestones. |
 | 1.5       | Group          | 09/26/23      | Group       | 09/26/23      | Final Review. |
-| 1.6       | Dan            | 09/27/23      | Barbara     | 09/27/23      | Tweak assumptions and contraints. |
+| 1.6       | Dan            | 09/27/23      | Barbara     | 09/27/23      | Tweak assumptions and constraints. |
 
 | Name | Email | Period of being project manager |
 | ---- | ----- | ------------------------------- |
