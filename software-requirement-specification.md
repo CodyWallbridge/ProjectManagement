@@ -2,9 +2,9 @@
 
 **Software Requirements Specification**:
 
-**Version:** 1.0
+**Version:** 1.1
 
-**Date:** 10/05/23
+**Date:** 10/06/23
 
 **Your Team Name:** Shaowei's Angels
 
@@ -18,8 +18,8 @@
 | 10/03/23   | Entered functional requirements     | Mia           |                      |
 | 10/03/23   | Entering sections 3.3-4             | Cody          |                      |
 | 10/03/23   | Entered non-functional requirements | Daniel        |                      |
-| 10/04/23   | Entering sections 1 and 2           | Barb          |                      |
-
+| 10/04/23   | Entering sections 1 and 2           | Barbara       |                      |
+| 10/06/23   | Edits after meeting with the TA     | Barbara       |                      |
 ---
 
 ## Table of Contents
@@ -33,6 +33,8 @@
     - [1.3 References](#13-references)
   - [2. General Description](#2-general-description)
     - [2.1 User Characteristics](#21-user-characteristics)
+          - [2.1.1 Phase 1](#211-phase-1)
+          - [2.1.2 Phase 2](#212-phase-2)
     - [2.2 Assumptions](#22-assumptions)
     - [2.3Dependencies](#23-dependencies)
   - [3. Specific Requirements](#3-specific-requirements)
@@ -59,6 +61,7 @@
       - [3.5.4 Purchased Components](#354-purchased-components)
   - [4 Other Supporting Documents](#4-other-supporting-documents)
     - [A. Appendices](#a-appendices)
+      - [A.1 Meeting Minutes with Shayan](#a1-meeting-minutes-with-shayan)
 
 ---
 
@@ -78,27 +81,26 @@ By creating this SRS, we aim to ensure a thorough understanding of the project's
 |-------------------------|---------------------------|
 |  CUA                    |  Common User Access       |
 |  GUI                    |  Graphical User Interface |
-|  OS                     |  Operating System |
+|  OS                     |  Operating System         |
 
 ### 1.3 References
 
-This subsection should:
-
-1. Provide a complete list of all documents referenced elsewhere in the SRS, or in a separate, specified document.
-2. Identify each document by title, report number - if applicable - date, and publishing organization.
-3. Specify the sources from which the references can be obtained.
-This information may be provided by reference to an appendix or to another document.
-
-Which format is for the references (?)
-
-- I referenced the example given and the IEEE format stuff
+Used the template and referenced the example SRS given.
 
 ## 2. General Description
 
 ### 2.1 User Characteristics
 
+#### 2.1.1 Phase 1
+
+Since this project is going to be beta tested on companies these are going to be the main users
+
 - Company Employees: The main users of U↑, we can assume they know how to use the internet. The developers will make the UI easy to use but after a couple uses they should know how to intuitively use U↑.
 - Administrators: They will manage the maximum number of callers allowed in the system. They will be very knowledgeable of the system.
+
+#### 2.1.2 Phase 2
+
+After the beta testing is completed the project wil be released to the public and anyone can use our internet phone call
 
 ### 2.2 Assumptions
 
@@ -239,6 +241,18 @@ This section outlines the non-functional requirements crucial for the U↑ inter
 
 ### A. Appendices
 
-Appendices may be used to provide additional (and hopefully helpful) information. If present, the SRS should explicitly state whether the information contained within an appendix is to be considered as a part of the SRS’s overall set of requirements.
+#### A.1 Meeting Minutes with Shayan
 
-Example Appendices could include (initial) conceptual documents for the software project, marketing materials, minutes of meetings with the customer(s), etc.
+Barbara had a 10 minutes meeting with Shayan and asked the following questions
+
+- How specific does the software need to be?
+Not much since the Product Managers don't usually know about the libraries
+
+- Do we need to be specific with the references?
+Not much, there needs to be something there but don't use Harvard or any formal referencing
+
+- Do we need to include group calling?
+I think it would be easy to implement since you have one person call planned but its up to you, since you didn't specify on the first document, is your decision
+
+- Who are the intended users?
+For beta testing it would be companies but eventually it will be open for the world to use
