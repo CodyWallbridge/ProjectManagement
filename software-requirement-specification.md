@@ -234,7 +234,7 @@ This section outlines the non-functional requirements crucial for the U↑ inter
 
 #### 3.5.2 Licensing Requirements
 
-- Not Applicable
+- Not Applicable.
 
 #### 3.5.3 Applicable Standards
 
@@ -242,7 +242,7 @@ This section outlines the non-functional requirements crucial for the U↑ inter
 
 ### 3.5.4 Purchased Components
 
-- Not Applicable
+- Not Applicable.
 
 ## 4 Other Supporting Documents
 
@@ -250,16 +250,16 @@ This section outlines the non-functional requirements crucial for the U↑ inter
 
 #### A.1 Meeting Minutes with Shayan
 
-Barbara had a 10 minutes meeting with Shayan and asked the following questions
+Barbara had a 10 minutes meeting with Shayan and asked the following questions.
 
 - How specific does the software need to be?
-Not much since the Product Managers don't usually know about the libraries
+Not much since the Product Managers don't usually know about the libraries.
 
 - Do we need to be specific with the references?
-Not much, there needs to be something there but don't use Harvard or any formal referencing
+Not much, there needs to be something there but don't use Harvard or any formal referencing.
 
 - Do we need to include group calling?
-I think it would be easy to implement since you have one person call planned but its up to you, since you didn't specify on the first document, is your decision
+I think it would be easy to implement since you have one person call planned but its up to you, since you didn't specify on the first document, is your decision.
 
 - Who are the intended users?
-For beta testing it would be companies but eventually it will be open for the world to use
+For the first phase it would be the client company but eventually it will be open for the world to use.
