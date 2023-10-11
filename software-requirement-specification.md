@@ -2,9 +2,9 @@
 
 **Software Requirements Specification**:
 
-**Version:** 1.1
+**Version:** 1.2
 
-**Date:** 10/06/23
+**Date:** 10/10/23
 
 **Your Team Name:** Shaowei's Angels
 
@@ -20,6 +20,7 @@
 | 10/03/23   | Entered non-functional requirements | Daniel        |                      |
 | 10/04/23   | Entering sections 1 and 2           | Barbara       |                      |
 | 10/06/23   | Edits after meeting with the TA     | Barbara       |                      |
+| 10/10/23   | Final read-through and edits        | Group         |                      |
 ---
 
 ## Table of Contents
@@ -71,17 +72,22 @@ The Software Requirements Specification (SRS) begins by offering a comprehensive
 
 ### 1.1 Purpose
 
-The primary purpose of this Software Requirements Specification (SRS) is to establish a comprehensive and detailed set of specifications for the development of U↑ is an internet-based phone system for our company employees. This document aims to define the functional and non-functional requirements of the software, outline its intended features and capabilities, and provide a clear roadmap for its development.
+The primary purpose of this Software Requirements Specification (SRS) is to establish a comprehensive and detailed set of specifications for the development of U↑, an internet-based phone system for a company's employees. This document aims to define the functional and non-functional requirements of the software, outline its intended features and capabilities, and provide a clear roadmap for its development.
 
 By creating this SRS, we aim to ensure a thorough understanding of the project's scope, objectives, and technical specifications among all stakeholders, including developers, designers, and clients. It will serve as a vital reference guide throughout the development process, helping to maintain consistency, meet user expectations, and ultimately deliver a high-quality, reliable, and efficient internet-based phone call software solution.
 
 ### 1.2 Definitions, Acronyms, and Abbreviations
 
-| Acronym / Abbreviation  | Definition                |
-|-------------------------|---------------------------|
-|  CUA                    |  Common User Access       |
-|  GUI                    |  Graphical User Interface |
-|  OS                     |  Operating System         |
+| Acronym / Abbreviation  | Definition                            |
+|-------------------------|---------------------------------------|
+|  Kbps                   |  Kilobytes per seconds                |
+|  SRS                    |  Software Requirements Specification  |
+|  CUA                    |  Common User Access                   |
+|  GUI                    |  Graphical User Interface             |
+|  OS                     |  Operating System                     |
+|  API                    |  Application Programming Interface    |
+|  TCP                    |  Transmission Control Protocol        |
+|  IP                     |  Internet Protocol                    |
 
 ### 1.3 References
 
@@ -93,26 +99,27 @@ Used the template and referenced the example SRS given.
 
 #### 2.1.1 Phase 1
 
-Since this project is going to be beta tested on companies these are going to be the main users
+The initial release of this project will be for companies and their employees are going to be the main users:
 
 - Company Employees: The main users of U↑, we can assume they know how to use the internet. The developers will make the UI easy to use but after a couple uses they should know how to intuitively use U↑.
 - Administrators: They will manage the maximum number of callers allowed in the system. They will be very knowledgeable of the system.
 
 #### 2.1.2 Phase 2
 
-After the beta testing is completed the project wil be released to the public and anyone can use our internet phone call
+After U↑ is successfully launched the project could be released to the public and anyone can use our system. The details regarding the necessary user profiles will be determined in a future version so as to minimize scope creep.
 
 ### 2.2 Assumptions
 
-- All calls will be made on stable internet
 - There is going to be some training and resources will be given to the company.
-- We assume to give support to the companies for the first month
+- A member of the development team will provide support to the client company for the first month after release.
+- An administrator could be a member of our company, the client company or a third-party company.
 
 ### 2.3 Dependencies
 
-- The OS of the system that the user is going to use to make the calls
-- When we make a change that deprecates the old version, the users need to update the software as soon as possible.
-- If the network is not stable the quality of the call might be affected, or the messages wont be delivered on time
+- The OS of the system that the user is going to use to make the calls.
+- The client having access to a network infrastructure.
+- The client having 300 Kbps of bandwidth.
+- The client having a microphone.
 
 ## 3. Specific Requirements
 
@@ -217,7 +224,7 @@ This section outlines the non-functional requirements crucial for the U↑ inter
 
 ### 3.4 Legal, Copyright, and Other Notices
 
-- Call app should display the disclaimers, copyright, word mark, trademark and product warranties of Shaowei's Angels
+- Call app should display the disclaimers, copyright, word mark, trademark and product warranties of Shaowei's Angels.
 
 ### 3.5 Other Requirements
 
