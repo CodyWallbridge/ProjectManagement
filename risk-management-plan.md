@@ -3,6 +3,7 @@
 ## Introduction
 
 ## Risk Identification
+
 | Risk | Description | Probability | Potential Loss | Risk Exposure | Risk Category |
 | ---- | ----------- | ----------- | -------------- | ------------- | ------------- |
 | Tight Development Timeline           | Given the 90-day deadline to deliver a prototype, there's a significant risk that the project might encounter delays due to unforeseen development challenges or resource constraints. If any phase of the project, such as design, development, or testing, takes longer than expected, it could derail the entire schedule.       | 0.4               | 500,000            | 200,000            | Schedule           |
