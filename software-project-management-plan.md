@@ -6,17 +6,129 @@
 ## VERSION HISTORY
 | Version # | Implemented By | Revision Date | Approved By | Approval Date | Reason |
 |-----------|----------------|---------------|-------------|---------------|--------|
+| 1.0       | Mia            | 13/11/23      | Mia         | 13/11/23      | Added Template. |
+| 1.1       | Cody           | 09/24/23      | Cody        | 09/25/23      | Added introduction and project organization. |
 
 ## 1 INTRODUCTION
+The Software Project Management Plan (SPMP) for the U↑ project defines the project management goals of the project and includes a description of the deliverables and deadlines. As the world shifts rapidly towards remote working and digital collaboration, the demand for advanced, cloud-based communication solutions is surging. Recognizing this trend, our client seeks to develop a comprehensive, cloud-based telephony system, "U↑". This system is designed to revolutionize communication within businesses by providing a versatile platform that supports making and receiving calls via the internet, rather than traditional landline connections. The primary goal of this project is to create a user-friendly, scalable virtual phone system that integrates seamlessly with desktop and mobile devices, enabling users to manage all communication under one unified business number. This innovation aims to cater to the evolving needs of modern businesses, providing a more flexible, efficient, and cost-effective communication solution. The SPMP for "U↑" details the steps, resources, and timeline required to turn this vision into a reality, ensuring that the final product aligns perfectly with the client's expectations and the market demands.
+
+The U↑ team consists of: Mia Battad, Daniel La Rocque, Barbara Guzman Romero and Cody Wallbridge.
 ### 1.1 Project Overview
-### 1.2 Project Deliverables
+This section of the Software Project Management Plan (SPMP) gives an overview of the purpose, scope, and objectives of the project. It also contains sections regarding the assumptions and constraints, the project deliverables, the summary of the schedule, and the plan for change in the SPMP. 
+
+### 1.1.1 Purpose, scope and objective
+The objective of the project is the development of the U↑ platform. U↑ is an internet-based phone system for company employees. Employees can make and receive calls over the Internet using their desktop computers, smartphones, tablets, or other devices connected to the U↑ system. Each of the user's devices connected to U↑ will be associated with a unique business phone number for incoming and outgoing calls. Any connected device can make or receive calls using U↑ whenever and wherever necessary.
+
+The project will take place over an estimated 12 months, with an estimated budget of $500K.
+
+### 1.1.2 Assumptions and constraints
+There are several assumptions and constraints that are of importance for the project and its team members.
+
+#### 1.1.2.1 Assumptions
+
+1. **Client-Server Communication**: The system architecture will support seamless interaction between multiple clients and the central server via sockets.
+2. **Database Integrity**: The database, potentially supporting the system, will maintain a consistent state even with concurrent access from call processing and administration.
+3. **Billing Accuracy**: The system can calculate bills with high precision to avoid discrepancies.
+4. **Client Adaptability**: All versions will provide a uniform user experience across clients using desktop, mobile, etc...
+5. **Singular Administrator Access**: Only one Administrator accesses the System Console at a time.
+
+#### 1.1.2.2 Constraints
+
+1. **4-Digit Dialing**: The system has an inherent limitation on the number of unique extensions with a 4-digit dialing plan.
+2. **Socket-Only Communication**: The mandate that communication should exclusively occur over sockets restricts alternative communication methods.
+3. **Load Limits**: The system has an upper threshold for the number of concurrent calls it can handle, determined by the Administrator.
+
+### 1.1.3 Project Deliverables
+| Major Deliverable | Deliverable Description |
+| ----------------- | ----------------------- |
+| Architecture design document | A high-level document describing the functional requirements and system architecture for the U↑ system. |
+| Client app UI mock-ups | Interactive user interface mock-ups representing how the U↑ mobile and desktop apps will look and respond to user interaction. |
+| System back-end and console | Server software and database for the U↑ system that can be interacted with and tested through an administrator console. |
+| Client app integration | Functional client applications that connect to the U↑ back-end and database to make and receive calls. |
+| System metrics & performance report | A report detailing the measured increases in efficiency, customer satisfaction, and system availability after implementing U↑ within the company. |
+
 ### 1.3 Evolution of SPMP
+The SPMP for the U↑ project will be under version control, so any changes will be made to the plan itself. The updated document will be made available to all project members and interested stakeholders. The most recent version will also be available in the U↑ repository.
+
+### 1.4 Schedule
+| Executive Milestones | Estimated Completion Time frame |
+| -------------------- | ------------------------------ |
+| Project plan created and approved | 2 weeks after Project Charter's initial draft is completed |
+| Visual prototypes developed | 8 weeks after requirements are finalized |
+| Software version 1 completed | 16 weeks after prototypes are completed |
+| Security and load testing of system | 4 weeks after completion of Version 1 |
+| Limited integration of system into company | 2 weeks after security and load testing |
+| Full system integration into company | 8 weeks after limited system integration |
 
 ## 2 PROJECT ORGANISATION
+The SPMP will identify the organizational entities external to the project and their interaction with the project team, as well as internal project structure and roles and responsibilities for the project. Section 2.1 describes the external interfaces to the U↑ project team, section 2.2 describes the internal structure of the team, while section 2.3 describes the roles performed by the team members.
+
+### 2.1 External Structure
+The client for this project is the TA Pengfei who is supposed to be a company wanting to use this product for internal use. All formal communication between the client and team was done through email on an as-needed basis. All team communication was done in person during class meetings or via discord as-needed. 
+
 ### 2.1 Process Model
+The U↑ project will follow an incremental and an iterative development model for its deliverables. The development will be done in several phases and each phase will represent a complete development cycle, with certain functionality of the system delivered at the end of each phase The phased approach to delivery provides flexibility in what the team will deliver, gives an opportunity to reassess the effort for each phase and allows both the team and the client to change any of the phase’s content.
+
 ### 2.2 Organisational Structure
+#### Internal Team
+- **Director/CEO**
+  - **Project Manager**
+    - **Team Lead**
+      - **Development Manager**
+        - **Developers**
+      - **Planning Manager**
+      - **QA Manager**
+      - **Support Manager**
+    - **Sales Representative**
+    - **IT Department**
+
+#### External Stakeholders
+- **Client Company**
+- **Investors**
+- **Future External Companies**
+- **Technology Manufacturers**
+- **General Public**
+
 ### 2.3 Organisational Boundaries
+#### 2.3.1 Inclusive Boundaries
+
+- Support calls inside the client company.
+- Support audio and text.
+- Support major tech hardware and software.
+
+#### 2.3.2 Exclusive Boundaries
+
+- No integration with other calling software.
+- No support for calls outside the client company.
+- No support for video calls.
+
 ### 2.4 Project Responsibilities
+#### 2.4.1 Internal Roles and Responsibilities
+
+| Name & Organization | Project Role | Project Responsibilities |
+| ------------------- | ------------ | ------------------------ |
+| Sales Representative     | Project Team Member  | Market the product by communicating its purpose and features |
+| IT Department            | Project Team Member  | Support the onboarding of customers and requests from the developers |
+| Developers               | Project Team Member  | Engage in day-to-day activities, be on call when needed, technical writing, and contribute to project success |
+| Team Lead                | Project Team Member  | Monitor team progress, ensure the team stays on track, run work breakdowns, organize work assignments and provide updates to Project Manager |
+| Project Manager          | Project Team Member  | Ensure Team Lead is familiar with requirements, provide updates to Director/CEO, break tasks |
+| Director/CEO             | Project Sponsor      | Ensure Project Manager is up to date on the requirements and update Investors if needed |
+
+#### 2.4.2 External Roles and Responsibilities
+
+| Name & Organization      | Project Role                 | Project Responsibilities |
+| ------------------------ | ---------------------------- | ------------------------ |
+| Investors                | Secondary Stakeholder        | Provide financial support to the project |
+| Client Company           | Customer                     | Provide feedback and requests |
+| General Public           | Future Customer              | Offer future feedback and requests |
+| Future External Companies| Future Customer              | Offer future feedback and requests |
+| Technology Manufacturers | Hardware/software supporter  | Accommodate project requirements and support system changes |
+
+### 2.5 Risk Management Plan
+The SPMP shall specify:
+- Risk management plan for identifying, analyzing and prioritizing project risk factors.
+- Procedures for contingency planning and the methods that will be used for tracking certain risk factors, changes in levels of the factors and responses to those changes. The Synergy team will maintain then project’s risk factors and strategies for risk mitigation in a separate document, The U↑ Risk Management Plan.
+
 
 ## 3 MANAGERIAL PROCESS
 ### 3.1 Management Objectives and Priorities
