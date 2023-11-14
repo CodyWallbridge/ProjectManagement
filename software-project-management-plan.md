@@ -6,8 +6,8 @@
 ## VERSION HISTORY
 | Version # | Implemented By | Revision Date | Approved By | Approval Date | Reason |
 |-----------|----------------|---------------|-------------|---------------|--------|
-| 1.0       | Mia            | 13/11/23      | Mia         | 13/11/23      | Added Template. |
-| 1.1       | Cody           | 09/24/23      | Cody        | 09/25/23      | Added introduction and project organization. |
+| 1.0       | Mia            | 11/13/23      | Mia         | 11/13/23      | Added Template. |
+| 1.1       | Cody           | 11/14/23      | Everyone    | 11/14/23      | Added introduction and project organization. |
 
 ## 1 INTRODUCTION
 The Software Project Management Plan (SPMP) for the U↑ project defines the project management goals of the project and includes a description of the deliverables and deadlines. As the world shifts rapidly towards remote working and digital collaboration, the demand for advanced, cloud-based communication solutions is surging. Recognizing this trend, our client seeks to develop a comprehensive, cloud-based telephony system, "U↑". This system is designed to revolutionize communication within businesses by providing a versatile platform that supports making and receiving calls via the internet, rather than traditional landline connections. The primary goal of this project is to create a user-friendly, scalable virtual phone system that integrates seamlessly with desktop and mobile devices, enabling users to manage all communication under one unified business number. This innovation aims to cater to the evolving needs of modern businesses, providing a more flexible, efficient, and cost-effective communication solution. The SPMP for "U↑" details the steps, resources, and timeline required to turn this vision into a reality, ensuring that the final product aligns perfectly with the client's expectations and the market demands.
