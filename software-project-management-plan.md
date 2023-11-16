@@ -63,14 +63,11 @@ The SPMP for the U↑ project will be under version control, so any changes will
 ## 2 PROJECT ORGANISATION
 The SPMP will identify the organizational entities external to the project and their interaction with the project team, as well as internal project structure and roles and responsibilities for the project. Section 2.1 describes the external interfaces to the U↑ project team, section 2.2 describes the internal structure of the team, while section 2.3 describes the roles performed by the team members.
 
-### 2.1 External Structure
-The client for this project is the TA Pengfei who is supposed to be a company wanting to use this product for internal use. All formal communication between the client and team was done through email on an as-needed basis. All team communication was done in person during class meetings or via discord as-needed. 
-
 ### 2.1 Process Model
 The U↑ project will follow an incremental and an iterative development model for its deliverables. The development will be done in several phases and each phase will represent a complete development cycle, with certain functionality of the system delivered at the end of each phase The phased approach to delivery provides flexibility in what the team will deliver, gives an opportunity to reassess the effort for each phase and allows both the team and the client to change any of the phase’s content.
 
 ### 2.2 Organisational Structure
-#### Internal Team
+#### The project team follows a hierarchical internal structure within the following levels:
 - **Director/CEO**
   - **Project Manager**
     - **Team Lead**
@@ -82,7 +79,7 @@ The U↑ project will follow an incremental and an iterative development model f
     - **Sales Representative**
     - **IT Department**
 
-#### External Stakeholders
+#### The external parties with interest or influence on U↑'s development include:
 - **Client Company**
 - **Investors**
 - **Future External Companies**
@@ -127,7 +124,10 @@ The U↑ project will follow an incremental and an iterative development model f
 ### 2.5 Risk Management Plan
 The SPMP shall specify:
 - Risk management plan for identifying, analyzing and prioritizing project risk factors.
-- Procedures for contingency planning and the methods that will be used for tracking certain risk factors, changes in levels of the factors and responses to those changes. The Synergy team will maintain then project’s risk factors and strategies for risk mitigation in a separate document, The U↑ Risk Management Plan.
+- Procedures for contingency planning and the methods that will be used for tracking certain risk factors, changes in levels of the factors and responses to those changes. The U↑ team will maintain the project’s risk factors and strategies for risk mitigation in a separate document, The U↑ Risk Management Plan.
+
+### 2.6 External Structure
+The client for this project is the TA Pengfei who is supposed to be a company wanting to use this product for internal use. All formal communication between the client and team was done through email on an as-needed basis. All team communication was done in person during class meetings or via discord as-needed. 
 
 
 ## 3 MANAGERIAL PROCESS
