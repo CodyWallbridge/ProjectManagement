@@ -12,6 +12,7 @@
 | 1.1       | Cody           | 11/14/23      | Everyone    | 11/14/23      | Added introduction and project organization. |
 | 1.2       | Barbara        | 11/16/23      | Mia         | 11/19/23      | Added Managerial Process.                    |
 | 1.3       | Mia            | 11/19/23      |             |               | Edited some wording and formatting. |
+| 1.4       | Mia            | 11/20/23      |             |               | Added Work Packages, Schedule and Budget. Moved items from Managerial Process appropriately. |
 
 ## 1 INTRODUCTION
 The Software Project Management Plan (SPMP) for the U↑ project defines the project management goals of the project and includes a description of the deliverables and deadlines. As the world shifts rapidly towards remote working and digital collaboration, the demand for advanced, cloud-based communication solutions is surging. Recognizing this trend, our client seeks to develop a comprehensive, cloud-based telephony system, "U↑". This system is designed to revolutionize communication within businesses by providing a versatile platform that supports making and receiving calls via the internet, rather than traditional landline connections. The primary goal of this project is to create a user-friendly, scalable virtual phone system that integrates seamlessly with desktop and mobile devices, enabling users to manage all communication under one unified business number. This innovation aims to cater to the evolving needs of modern businesses, providing a more flexible, efficient, and cost-effective communication solution. The SPMP for "U↑" details the steps, resources, and timeline required to turn this vision into a reality, ensuring that the final product aligns perfectly with the client's expectations and the market demands.
@@ -181,29 +182,14 @@ Table of the estimated cost allocated for the yearly cost
 
 ##### 3.1.1.1 Monthly Breakdown
 
-Below is the breakdown of the project budget by month. The budget is designed to leave us with $40,000 in monthly expenses.
 
-| Month | Development ($) | Testing ($) | Infrastructure ($) | UI/Design ($) | Documentation ($) | Project Management ($) | Legal/Compliance ($) | Total Expenses ($) | Confidence Level |
-|  |  |  |  |  |  |  |  |  |  |
-| 1     | 20,833          | 0           | 6,667              | 2,917         | 1,250             | 3,333                  | 833                  | 35,833             | High             |
-| 2     | 20,833          | 0           | 6,667              | 2,917         | 1,250             | 3,333                  | 833                  | 35,833             | High             |
-| 3     | 20,833          | 0           | 6,667              | 2,917         | 1,250             | 3,333                  | 833                  | 35,833             | High             |
-| 4     | 20,833          | 0           | 6,667              | 2,917         | 1,250             | 3,333                  | 833                  | 35,833             | Medium           |
-| 5     | 20,833          | 0           | 6,667              | 2,917         | 1,250             | 3,333                  | 833                  | 35,833             | Medium           |
-| 6     | 20,833          | 0           | 6,667              | 2,917         | 1,250             | 3,333                  | 833                  | 35,833             | Medium           |
-| 7     | 20,833          | 8,333       | 6,667              | 2,917         | 1,250             | 3,333                  | 833                  | 44,166             | Medium           |
-| 8     | 20,833          | 8,333       | 6,667              | 2,917         | 1,250             | 3,333                  | 833                  | 44,166             | Medium           |
-| 9     | 20,833          | 8,333       | 6,667              | 2,917         | 1,250             | 3,333                  | 833                  | 44,166             | Medium           |
-| 10    | 20,833          | 8,333       | 6,667              | 2,917         | 1,250             | 3,333                  | 833                  | 44,166             | Medium           |
-| 11    | 20,833          | 8,333       | 6,667              | 2,917         | 1,250             | 3,333                  | 833                  | 44,166             | Medium           |
-| 12    | 20,833          | 8,333       | 6,667              | 2,917         | 1,250             | 3,333                  | 833                  | 44,166             | Medium           |
-| Total | 250,000         | 50,000      | 80,000             | 35,000        | 15,000            | 40,000                 | 10,000               | 480,000            | Medium           |
 
 Using this budget, the positions we can hire for the full year are:
 
 - 4 Full Stack developers (Development Budget)
 - 1 Project Manager (Project Management Budget)
 - 1 IT Person (Infrastructure Budget)
+- 1 Technical Writer (Documentation Budget)
 
 The positions we can hire for the last 6 months are:
 
@@ -227,95 +213,53 @@ We will re-estimate work on every project milestone and upon any changes in the 
 
 The staffing plan introduced in 3.1.1.1 Monthly Breakdown is broken down in further detail below:
 
-| Skill Level         | Full Stack Developers | QA Developer | Project Manager    | IT Person      |
+| Skill Level         | Full Stack Developers | QA Developer | Project Manager    | IT Person      | Technical Writer |
+| - | - | - | - | - | - |
+| Entry-Level         | 1                     | 0            | 0                  | 1              | 1 |
+| Mid-Level           | 2                     | 1            | 1                  | 0              | 0 |
+| Senior-Level        | 1                     | 0            | 0                  | 0              | 0 |
+|  |  |  |  |  | |
+| Total Personnel     | 4                     | 1            | 1                  | 1              | 1 |
 |  |  |  |  |  |
-| Entry-Level         | 1                     | 0            | 0                  | 1              |
-| Mid-Level           | 2                     | 1            | 1                  | 0              |
-| Senior-Level        | 1                     | 0            | 0                  | 0              |
-|  |  |  |  |  |
-| Total Personnel     | 4                     | 1            | 1                  | 1              |
-|  |  |  |  |  |
-| Project Phase       | Development           | Testing      | Project Management | Infrastructure |
-|  |  |  |  |  |
-| Planning            | 1 Mid-Level           | 0            | 1 Mid-Level        | 0              |
-| Development         | 2 Mid-Level, 1 Senior | 0            | 0                  | 0              |
-| Testing             | 1 Mid-Level           | 1            | 0                  | 0              |
-| Deployment          | 1 Entry-Level         | 0            | 0                  | 1 Entry-Level  |
-|  |  |  |  |  |
-| Duration            | 12 months             | 6 months     | 12 months          | 12 months      |
-|  |  |  |  |  |
-| Source of Personnel | New Hires             | New Hire     | Internal Transfer  | Contracted     |
+| Project Phase       | Development           | Testing      | Project Management | Infrastructure | Documentation |
+|  |  |  |  |  | |
+| Planning            | 1 Mid-Level           | 0            | 1 Mid-Level        | 0              | 0 |
+| Development         | 2 Mid-Level, 1 Senior | 0            | 0                  | 0              | 1 Entry-level |
+| Testing             | 1 Mid-Level           | 1            | 0                  | 0              | 0 |
+| Deployment          | 1 Entry-Level         | 0            | 0                  | 1 Entry-Level  | 0 |
+|  |  |  |  |  | |
+| Duration            | 12 months             | 6 months     | 12 months          | 12 months      | 12 months |
+|  |  |  |  |  | |
+| Source of Personnel | New Hires             | New Hire     | Internal Transfer  | Contracted     | New Hire |
 
-#### 3.1.3 Resource Acquisition
+## 3.2 Project Tracking Plan
 
-##### 3.1.3.1 Hardware Resources
+### 3.2.1 Process for Measuring
 
-Each team member will work from home and will be given a 14-inch MacBook Pro with:
+We will measure success in how many user stories where completed in a 2-week sprint, comparing it to the deadlines in our project schedule and the high-level project milestones.
 
-- 11-core CPU14-core GPU
-- 18GB Unified Memory
-- 512GB SSD Storage
-
-As working from home is the expectation, if employers need dongles, mice, or extra screens, they will request it to the IT Person.
-
-##### 3.1.3.2 Software Resources
-
-All members of the team will communicate using Slack.
-
-The U↑ project will be hosted in a GitHub repository.
-
-##### 3.1.3.2 Other Resources
-
-Other resources will need to be requested to the Project Manager, who will approve or deny them as necessary.
-
-## 3.2 Work Plan
-
-### 3.2.1 Work Breakdown Structure
-
-The Work Breakdown Structure (WBS) shows each of the tasks that need to be completed.
-
-![WBS Tasks Image](/WBS%20Tasks.png)
-
-### Gantt Chart
-
-This Gantt chart shows each task in the WBS along with its assigned developer and deadline. It will be updated throughout the project to reflect how much progress has been made on each task.
-
-![Gantt Chart](/4050Gantt_Light.png)
-
-### 3.2.2 Schedule and Resource Allocation
-
-The team will create a schedule for each member at the onset of every project phase. Furthermore, adjustments to individual schedules will be made based on the workload each team member faces during that particular period. This approach aims to maintain a balanced workload across the team.
-
-## 3.3 Project Tracking Plan
-
-### 3.3.1 Process for Measuring
-
-We will measure success in how many user stories where completed in a 2-week sprint, comparing it to the deadlines in our [Gantt Chart]() and project milestones.
-
-### 3.3.2 Changes Request
+### 3.2.2 Changes Request
 
 Since we are using Agile, changes will be more usual. Developers can implement changes at their own discretion, but are expected to bring it up to the Project Manager and the other developers in case stakeholders need to be consulted. For large-scale changes, we will ensure a meeting with all the stakeholders. At this meeting, the stakeholders will evaluate whether the change follows the vision for the project, and approve or deny it accordingly.
 
-### 3.3.3 Schedule Control
+### 3.2.3 Schedule Control
 
-Since we are using Agile, the schedule will be reassessed every 2 weeks in Retrospective and Sprint Planning meetings. We will measure how much work has been done in the milestone, compare it to the expected deadlines in our [Gantt Chart]() and project milestones, and determine which actions we need to take to meet the task deadlines of the next sprint in time.
+Since we are using Agile, the schedule will be reassessed every 2 weeks in Retrospective and Sprint Planning meetings. We will measure how much work has been done in the milestone, compare it to the expected deadlines in the project schedule, and determine which actions we need to take to meet the task deadlines of the next sprint in time.
 
-### 3.3.4 Communication Plan
-
-As mentioned before, we will use Slack as main method of communication.
+### 3.2.4 Communication Plan
 
 As we are going to use Agile, we will have:
 - 2 week sprints, starting on Mondays, with a 1 hour Sprint Planning meeting
 - Daily 15 minute standup with the developers to review their day-to-day tasks, share their progress, and ask for help
 - 1 hour Retrospective meetings at the end of each sprint cycle, i.e., every 2 weeks
 
-The developers and the Project Manager are required to attend these meetings. Once Quality Assurance begins, the QA tester will join them.
+The developers and the Project Manager are required to attend these meetings. Once Quality Assurance begins, the QA Developer will join them.
 
 IT will request equipment from the Project Manager as needed. They will meet with the Project Manager at least twice a week to review their hardware or software requirements.
 
-### 3.4 Risk Management Plan
+### 3.3 Risk Management Plan
 
-### 3.4.1 Main Risks
+### 3.3.1 Main Risks
 
 1. **Unforeseen Call Scenarios** - They cause system glitches, such as calls to busy lines or invalid numbers.
 
@@ -325,7 +269,7 @@ IT will request equipment from the Project Manager as needed. They will meet wit
 
 4. **System Overload** - especially if the number of calls nears the set limit, affecting call quality.
 
-### 3.4.2 Response Plan
+### 3.3.2 Response Plan
 
 | Risk                                   | Response Strategy | Mitigation                                                                                                  |
 | -------------------------------------- | ----------------- | ----------------------------------------------------------------------------------------------------------- |
@@ -334,7 +278,7 @@ IT will request equipment from the Project Manager as needed. They will meet wit
 | **Billing Discrepancies**              | Avoidance         | Implement robust billing verification mechanisms and provide users with a transparent breakdown of charges. |
 | **System Overload**                    | Avoidance         | Design an alert system for administrators and consider elastic scalability solutions.                       |
 
-#### 3.5 Project Closeout
+#### 3.4 Project Closeout
 
 To ensure that we can close out the project, we will conduct the following:
 
@@ -367,7 +311,7 @@ To ensure that we can close out the project, we will conduct the following:
   - **Requirement Gathering:** User story mapping and backlog grooming sessions.
   - **Design:** Use of UML diagrams for system architecture and database design.
   - **Testing:** Test-Driven Development (TDD) approach.
-  - **Deployment:** Continuous Integration/Continuous Deployment (CI/CD) pipeline using Jenkins.\
+  - **Deployment:** Continuous Integration/Continuous Deployment (CI/CD) pipeline using Jenkins.
 
 - **Configuration Management Plan:** Utilize Git for version control, with a branching strategy incorporating feature, develop, and master branches.
 - **Quality Assurance Plan:** Regular code reviews, adherence to coding standards, and automated testing to ensure quality.
@@ -415,8 +359,91 @@ To ensure that we can close out the project, we will conduct the following:
 
 ### 5.1 Work Packages
 
+The work packages are organized in a WBS diagram. As the project will use Agile methodology, one unit of work is a "story point," an abstract measure of work that can be completed in a 2-week sprint. After the first 2 sprints, the team will re-evaluate the WBS based on how many story points they were able to accomplish in each prior sprint.
+
+![WBS diagram](/WBS%20Tasks.png)
+
 ### 5.2 Dependencies
+
+The dependencies of each task in the WBS are illustrated in a PERT chart. This diagram also shows the critical path, which is the chain of dependent tasks estimated to take the longest to accomplish.
+
+![PERT diagram](/pert-diagram.png)
+
+As work is re-estimated throughout project execution, the PERT chart and critical path will be updated accordingly.
 
 ### 5.3 Resource Requirements
 
+The project will require hardware resources, software 
+
+#### 5.3.1 Hardware Resources
+
+Each team member will work from home. To ensure consistent hardware specifications, each team member will be given a 14-inch MacBook Pro with:
+- 11-core CPU14-core GPU
+- 18GB Unified Memory
+- 512GB SSD Storage
+
+As working from home is the expectation, if employers need dongles, mice, or extra screens, they will request it to the IT Person.
+
+#### 5.3.2 Infrastructure Resources
+
+In addition to the infrastructure tools listed in [4.1 Methods, Tools, and Techniques](#4-1-methods-tools-and-techniques), we will use Amazon EC2 for:
+- Server hosting and management
+- Testing work activities on machines with different operating systems and hardware capabilities
+
+#### 5.3.3 Staffing Resources
+
+As outlined in [3.1.2 Staffing Plan](#3-1-2-staffing-plan), the necessary personnel for this project include:
+- 4 Full Stack developers
+- 1 Project Manager
+- 1 IT Person
+- 1 Quality Assurance developer
+- 1 Technical Writer
+
 ### 5.4 Budget, Resource Allocation and Schedule
+
+The following 3 subsections provide a detailed breakdown of the budget per month, resource allocation per work activity, and individual tasks within the development phase.
+
+#### 5.4.1 Budget Allocation per Month
+Below is the breakdown of the project budget by month. The budget is designed to leave us with $40,000 in monthly expenses.
+
+| Month | Development ($) | Testing ($) | Infrastructure ($) | UI/Design ($) | Documentation ($) | Project Management ($) | Legal/Compliance ($) | Total Expenses ($) | Confidence Level |
+| - | - | - | - | - | - | - | - | - | - |
+| 1     | 20,833          | 0           | 6,667              | 2,917         | 1,250             | 3,333                  | 833                  | 35,833             | High             |
+| 2     | 20,833          | 0           | 6,667              | 2,917         | 1,250             | 3,333                  | 833                  | 35,833             | High             |
+| 3     | 20,833          | 0           | 6,667              | 2,917         | 1,250             | 3,333                  | 833                  | 35,833             | High             |
+| 4     | 20,833          | 0           | 6,667              | 2,917         | 1,250             | 3,333                  | 833                  | 35,833             | Medium           |
+| 5     | 20,833          | 0           | 6,667              | 2,917         | 1,250             | 3,333                  | 833                  | 35,833             | Medium           |
+| 6     | 20,833          | 0           | 6,667              | 2,917         | 1,250             | 3,333                  | 833                  | 35,833             | Medium           |
+| 7     | 20,833          | 8,333       | 6,667              | 2,917         | 1,250             | 3,333                  | 833                  | 44,166             | Medium           |
+| 8     | 20,833          | 8,333       | 6,667              | 2,917         | 1,250             | 3,333                  | 833                  | 44,166             | Medium           |
+| 9     | 20,833          | 8,333       | 6,667              | 2,917         | 1,250             | 3,333                  | 833                  | 44,166             | Medium           |
+| 10    | 20,833          | 8,333       | 6,667              | 2,917         | 1,250             | 3,333                  | 833                  | 44,166             | Medium           |
+| 11    | 20,833          | 8,333       | 6,667              | 2,917         | 1,250             | 3,333                  | 833                  | 44,166             | Medium           |
+| 12    | 20,833          | 8,333       | 6,667              | 2,917         | 1,250             | 3,333                  | 833                  | 44,166             | Medium           |
+| Total | 250,000         | 50,000      | 80,000             | 35,000        | 15,000            | 40,000                 | 10,000               | 480,000            | Medium           |
+
+#### 5.4.2 Resource Allocation per Work Activities
+Below illustrates the required resources for each work activity in the project.
+
+Note that some resources, such as the machines or software used for development, will be used throughout the project and therefore allocated to multiple work activities. As activities do not necessarily happen concurrently, the same staff personnel may be allocated to two or more activities.
+
+| Activity | Hardware Resources | Software Tools | Infrastructure Tools | Staffing Resources |
+| -------- | ------------------ | -------------- | -------------------- | ------------------ |
+| Project Management | 14" MacBook Pro (5) | Confluence, JIRA, Slack, Zoom | | Project Manager (1),  Full Stack developer (4) |
+| Initial Configuration | 14" MacBook Pro (4) | Visual Studio Code, IntelliJ IDEA, Git, Slack | Jenkins | Full Stack developer (4) |
+| Audio Communication | 14" MacBook Pro (2) | Visual Studio Code, IntelliJ IDEA, Git | Jenkins, Amazon EC2 | Full Stack developer (2) |
+| Text Communication | 14" MacBook Pro (2) | Visual Studio Code, IntelliJ IDEA, Git | Jenkins, Amazon EC2 | Full Stack developer (2) |
+| Manage User Account | 14" MacBook Pro (2) | Visual Studio Code, IntelliJ IDEA, Git | Jenkins | Full Stack developer (2) |
+| Search System Records | 14" MacBook Pro (2) | Visual Studio Code, IntelliJ IDEA, Git | Jenkins | Full Stack developer (2) |
+| Technical Support | 14" MacBook Pro (2) | Visual Studio Code, IntelliJ IDEA, Git | Jenkins, Amazon EC2 | Full Stack developer (2) |
+| Billing | 14" MacBook Pro (2) | Visual Studio Code, IntelliJ IDEA, Git | Jenkins | Full Stack developer (2) |
+| System Console | 14" MacBook Pro (2) | Visual Studio Code, IntelliJ IDEA, Git | Jenkins | Full Stack developer (2) |
+| Acceptance | 14" MacBook Pro (5) | Visual Studio Code, Confluence, IntelliJ IDEA, Git, Slack | Jenkins, Amazon EC2 | Project Manager (1), Full Stack developer (2), Quality Assurance developer (1), Technical Writer (1) |
+
+#### 5.4.3 Schedule of Project Activities
+
+Each task in the WBS is assigned and scheduled using a Gantt Chart. The Gantt chart may be updated by individual developers throughout the sprint cycle as they make progress on their tasks, but will be formally reviewed and updated by the developer team and Project Manager during each sprint's Retrospective meeting.
+
+As the occupants of each position are not yet known, they are labelled in the Gantt chart with their position and an identifying letter (e.g., "Project Manager A," "Full Stack developer B," etc.). The assignees may also be updated upon staffing changes or reassessment of workload as the project progresses.
+
+![Gantt Chart](/4050Gantt_Light.png)
