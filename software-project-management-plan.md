@@ -10,7 +10,8 @@
 |-----------|----------------|---------------|-------------|---------------|--------|
 | 1.0       | Mia            | 11/13/23      | Mia         | 11/13/23      | Added Template. |
 | 1.1       | Cody           | 11/14/23      | Everyone    | 11/14/23      | Added introduction and project organization. |
-| 1.2       | Barbara        | 11/16/23      | Barbara     | 11/14/23      | Added Managerial Process                     |
+| 1.2       | Barbara        | 11/16/23      | Mia         | 11/19/23      | Added Managerial Process.                    |
+| 1.3       | Mia            | 11/19/23      |             |               | Edited some wording and formatting. |
 
 ## 1 INTRODUCTION
 The Software Project Management Plan (SPMP) for the U↑ project defines the project management goals of the project and includes a description of the deliverables and deadlines. As the world shifts rapidly towards remote working and digital collaboration, the demand for advanced, cloud-based communication solutions is surging. Recognizing this trend, our client seeks to develop a comprehensive, cloud-based telephony system, "U↑". This system is designed to revolutionize communication within businesses by providing a versatile platform that supports making and receiving calls via the internet, rather than traditional landline connections. The primary goal of this project is to create a user-friendly, scalable virtual phone system that integrates seamlessly with desktop and mobile devices, enabling users to manage all communication under one unified business number. This innovation aims to cater to the evolving needs of modern businesses, providing a more flexible, efficient, and cost-effective communication solution. The SPMP for "U↑" details the steps, resources, and timeline required to turn this vision into a reality, ensuring that the final product aligns perfectly with the client's expectations and the market demands.
@@ -129,10 +130,10 @@ The U↑ project will follow an incremental and an iterative development model f
 ### 2.5 Risk Management Plan
 The SPMP shall specify:
 - Risk management plan for identifying, analyzing and prioritizing project risk factors.
-- Procedures for contingency planning and the methods that will be used for tracking certain risk factors, changes in levels of the factors and responses to those changes. The U↑ team will maintain the project’s risk factors and strategies for risk mitigation in a separate document, The U↑ Risk Management Plan.
+- Procedures for contingency planning and the methods that will be used for tracking certain risk factors, changes in levels of the factors and responses to those changes. The U↑ team will maintain the project’s risk factors and strategies for risk mitigation in [Section 3.4 Risk Management Plan]().
 
 ### 2.6 External Structure
-The client for this project is the TA Pengfei who is supposed to be a company wanting to use this product for internal use. All formal communication between the client and team was done through email on an as-needed basis. All team communication was done in person during class meetings or via discord as-needed. 
+The client for this project is the TA, Pengfei, who is acting as a company interested in this product for internal use. All formal communication between the client and team was done through email on an as-needed basis. All team communication was done in person during class meetings or via Discord as needed.
 
 
 ## 3 MANAGERIAL PROCESS PLAN
@@ -176,15 +177,14 @@ Table of the estimated cost allocated for the yearly cost
 | Project Management    | 40,000             | Project planning, coordination, and management   | Based on the expected time and effort required for project planning, coordination, and management activities and cost models                |
 | Legal and Compliance  | 10,000             | Licensing, legal consultations, compliance       | Based on cost models anticipated costs for licensing, legal consultations, and ensuring regulatory compliance                               |
 | Emergency fund        | 20,000             | Unforeseen expenses and changes in requirements  | This is a rule of thumb to account for unexpected challenges                                                                                |
-| --------------------- | ------------------ | ------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------- |
-| Total Budget          | 500,000            | Total Estimation                                 |                                                                                                                                             |
+| Total Budget          | 500,000            | Total Estimation                                 |  |         
 
 ##### 3.1.1.1 Monthly Breakdown
 
-With this budget leaves us with 40,000 monthly expenses
+Below is the breakdown of the project budget by month. The budget is designed to leave us with $40,000 in monthly expenses.
 
 | Month | Development ($) | Testing ($) | Infrastructure ($) | UI/Design ($) | Documentation ($) | Project Management ($) | Legal/Compliance ($) | Total Expenses ($) | Confidence Level |
-| ----- | --------------- | ----------- | ------------------ | ------------- | ----------------- | ---------------------- | -------------------- | ------------------ | ---------------- |
+|  |  |  |  |  |  |  |  |  |  |
 | 1     | 20,833          | 0           | 6,667              | 2,917         | 1,250             | 3,333                  | 833                  | 35,833             | High             |
 | 2     | 20,833          | 0           | 6,667              | 2,917         | 1,250             | 3,333                  | 833                  | 35,833             | High             |
 | 3     | 20,833          | 0           | 6,667              | 2,917         | 1,250             | 3,333                  | 833                  | 35,833             | High             |
@@ -199,53 +199,51 @@ With this budget leaves us with 40,000 monthly expenses
 | 12    | 20,833          | 8,333       | 6,667              | 2,917         | 1,250             | 3,333                  | 833                  | 44,166             | Medium           |
 | Total | 250,000         | 50,000      | 80,000             | 35,000        | 15,000            | 40,000                 | 10,000               | 480,000            | Medium           |
 
-With this budget we can hire for the whole year:
+Using this budget, the positions we can hire for the full year are:
 
-- 4 full stack developers (Development Budget)
-- 1 Project manager (Project Management Budget)
+- 4 Full Stack developers (Development Budget)
+- 1 Project Manager (Project Management Budget)
 - 1 IT Person (Infrastructure Budget)
 
-For the last 6 months
+The positions we can hire for the last 6 months are:
 
 - 1 Quality Assurance developer (Testing Budget)
 
 While maintaining:
 
 - Stable infrastructure
-- Having documentation and quality training sessions
-- Having a legal team sort out our business
+- Documentation and quality training sessions
+- A legal team supporting the project and development company
 
-##### 3.1.1.2 Estimate Work
+##### 3.1.1.2 Estimation of Work
 
-To estimate work to we are going to use Agile methods with the developers and project manager.
+The developers and Project Manager will use Agile methodology to estimate work.
 
-##### 3.1.1.1 Re-estimation
+##### 3.1.1.3 Re-estimation of Work
 
-To re-estimate we are going to use the WBS
+We will re-estimate work on every project milestone and upon any changes in the budget. The re-estimation will use the Work Breakdown Structure, and will be done given how much work was done on the previous milestone we can adjust to it.
 
-Re-estimation will happen on every project milestone or if there is a change in the budget. The estimation will be done given how much work was done on the previous milestone we can adjust to it.
+#### 3.1.2 Staffing Plan
 
-#### 3.1.2 Staffing plan
-
-Specify the number of required staff, providing the following details:
+The staffing plan introduced in 3.1.1.1 Monthly Breakdown is broken down in further detail below:
 
 | Skill Level         | Full Stack Developers | QA Developer | Project Manager    | IT Person      |
-| ------------------- | --------------------- | ------------ | ------------------ | -------------- |
+|  |  |  |  |  |
 | Entry-Level         | 1                     | 0            | 0                  | 1              |
 | Mid-Level           | 2                     | 1            | 1                  | 0              |
 | Senior-Level        | 1                     | 0            | 0                  | 0              |
-| ------------------- | --------------------- | ------------ | ------------------ | -------------- |
+|  |  |  |  |  |
 | Total Personnel     | 4                     | 1            | 1                  | 1              |
-| ------------------- | --------------------- | ------------ | ------------------ | -------------- |
+|  |  |  |  |  |
 | Project Phase       | Development           | Testing      | Project Management | Infrastructure |
-| ------------------- | --------------------- | ------------ | ------------------ | -------------- |
+|  |  |  |  |  |
 | Planning            | 1 Mid-Level           | 0            | 1 Mid-Level        | 0              |
 | Development         | 2 Mid-Level, 1 Senior | 0            | 0                  | 0              |
 | Testing             | 1 Mid-Level           | 1            | 0                  | 0              |
 | Deployment          | 1 Entry-Level         | 0            | 0                  | 1 Entry-Level  |
-| ------------------- | --------------------- | ------------ | ------------------ | -------------- |
+|  |  |  |  |  |
 | Duration            | 12 months             | 6 months     | 12 months          | 12 months      |
-| ------------------- | --------------------- | ------------ | ------------------ | -------------- |
+|  |  |  |  |  |
 | Source of Personnel | New Hires             | New Hire     | Internal Transfer  | Contracted     |
 
 #### 3.1.3 Resource Acquisition
@@ -258,31 +256,33 @@ Each team member will work from home and will be given a 14-inch MacBook Pro wit
 - 18GB Unified Memory
 - 512GB SSD Storage
 
-People are expected to work from home so if employers need dongles, mouses or extra screens to develop, they need to request it to the IT Person.
+As working from home is the expectation, if employers need dongles, mice, or extra screens, they will request it to the IT Person.
 
 ##### 3.1.3.2 Software Resources
 
-We are going to Use Slack to communicate, our project will be in Github
+All members of the team will communicate using Slack.
+
+The U↑ project will be hosted in a GitHub repository.
 
 ##### 3.1.3.2 Other Resources
 
-Other resources will need to be asked to the project manager
+Other resources will need to be requested to the Project Manager, who will approve or deny them as necessary.
 
 ## 3.2 Work Plan
 
 ### 3.2.1 Work Breakdown Structure
 
-WBS of the work that is going to be done
+The Work Breakdown Structure (WBS) shows each of the tasks that need to be completed.
 
 ![WBS Tasks Image](/WBS%20Tasks.png)
 
 ### Gantt Chart
 
-This Gantt chart shows the schedule where the WBS will be completed by
+This Gantt chart shows each task in the WBS along with its assigned developer and deadline. It will be updated throughout the project to reflect how much progress has been made on each task.
 
 ![Gantt Chart](/4050Gantt_Light.png)
 
-### 3.2.2 Schedule and resource allocation
+### 3.2.2 Schedule and Resource Allocation
 
 The team will create a schedule for each member at the onset of every project phase. Furthermore, adjustments to individual schedules will be made based on the workload each team member faces during that particular period. This approach aims to maintain a balanced workload across the team.
 
@@ -290,27 +290,28 @@ The team will create a schedule for each member at the onset of every project ph
 
 ### 3.3.1 Process for Measuring
 
-We are going to measure success in how many user stories where completed in a sprint
+We will measure success in how many user stories where completed in a 2-week sprint, comparing it to the deadlines in our [Gantt Chart]() and project milestones.
 
 ### 3.3.2 Changes Request
 
-Since we are using agile, changes will be more usual, we need to ensure that there is a meeting with all the stakeholders to ensure it follows our vision
+Since we are using Agile, changes will be more usual. Developers can implement changes at their own discretion, but are expected to bring it up to the Project Manager and the other developers in case stakeholders need to be consulted. For large-scale changes, we will ensure a meeting with all the stakeholders. At this meeting, the stakeholders will evaluate whether the change follows the vision for the project, and approve or deny it accordingly.
 
 ### 3.3.3 Schedule Control
 
-Since we are going to use agile, the schedule will be reassessed in every retrospective and sprint planning, will measure how much work has been done in the milestone and what actions we need to do to complete work in time
+Since we are using Agile, the schedule will be reassessed every 2 weeks in Retrospective and Sprint Planning meetings. We will measure how much work has been done in the milestone, compare it to the expected deadlines in our [Gantt Chart]() and project milestones, and determine which actions we need to take to meet the task deadlines of the next sprint in time.
 
-### 3.3.4 Communication plan
+### 3.3.4 Communication Plan
 
-As mentioned before, we will use Slack as main method of communication, we are going to use agile so we will have:
+As mentioned before, we will use Slack as main method of communication.
 
-- Two week sprints, starting on mondays with an hour sprint planning meeting
-- Daily 15 minute standup with the developers to see what what they are doing or if they need any help
-- One hour retrospectives every 2 weeks with the dev team
+As we are going to use Agile, we will have:
+- 2 week sprints, starting on Mondays, with a 1 hour Sprint Planning meeting
+- Daily 15 minute standup with the developers to review their day-to-day tasks, share their progress, and ask for help
+- 1 hour Retrospective meetings at the end of each sprint cycle, i.e., every 2 weeks
 
-The developers and the project manager will assist these meetings, the QA will join them after they start QA
+The developers and the Project Manager are required to attend these meetings. Once Quality Assurance begins, the QA tester will join them.
 
-The IT will request equipment from the project manager as needed and will have a meeting at least twice a week
+IT will request equipment from the Project Manager as needed. They will meet with the Project Manager at least twice a week to review their hardware or software requirements.
 
 ### 3.4 Risk Management Plan
 
@@ -335,7 +336,7 @@ The IT will request equipment from the project manager as needed and will have a
 
 #### 3.5 Project Closeout
 
-To ensure that we can closeout the project we need:
+To ensure that we can close out the project, we will conduct the following:
 
 - Final Code Review: Conduct a thorough review of the final codebase to ensure it meets quality standards and follows coding conventions.
 - Testing and Quality Assurance: Perform final testing to verify the software's functionality and address any remaining bugs or issues.
@@ -351,7 +352,6 @@ To ensure that we can closeout the project we need:
 ## 4 TECHNICAL PROCESS
 
 ### 4.1 Methods, Tools, and Techniques
-
 
 - **Software Development Methodology:** Agile Scrum will be employed, facilitating iterative development and regular reassessment of project priorities.
 
