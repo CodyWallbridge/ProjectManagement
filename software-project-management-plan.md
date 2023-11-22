@@ -8,24 +8,91 @@
 
 ## VERSION HISTORY
 
-| Version # | Implemented By | Revision Date | Approved By | Approval Date | Reason |
-|-----------|----------------|---------------|-------------|---------------|--------|
-| 1.0       | Mia            | 11/13/23      | Mia         | 11/13/23      | Added Template. |
-| 1.1       | Cody           | 11/14/23      | Everyone    | 11/14/23      | Added introduction and project organisation. |
-| 1.2       | Dan            | 11/15/23      | Cody        | 11/16/23      | Added Technical Process. |
-| 1.3       | Barbara        | 11/16/23      | Mia         | 11/19/23      | Added Managerial Process.                    |
-| 1.4       | Mia            | 11/19/23      | Barbara     | 11/21/23      | Edited some wording and formatting. |
+| Version # | Implemented By | Revision Date | Approved By | Approval Date | Reason                                                                                       |
+| --------- | -------------- | ------------- | ----------- | ------------- | -------------------------------------------------------------------------------------------- |
+| 1.0       | Mia            | 11/13/23      | Mia         | 11/13/23      | Added Template.                                                                              |
+| 1.1       | Cody           | 11/14/23      | Everyone    | 11/14/23      | Added introduction and project organisation.                                                 |
+| 1.2       | Dan            | 11/15/23      | Cody        | 11/16/23      | Added Technical Process.                                                                     |
+| 1.3       | Barbara        | 11/16/23      | Mia         | 11/19/23      | Added Managerial Process.                                                                    |
+| 1.4       | Mia            | 11/19/23      | Barbara     | 11/21/23      | Edited some wording and formatting.                                                          |
 | 1.5       | Mia            | 11/20/23      | Barbara     | 11/21/23      | Added Work Packages, Schedule and Budget. Moved items from Managerial Process appropriately. |
-| 1.6       | Everyone       | 11/21/23      | Everyone    | 11/21/23      | Reviewed for content and format. |
+| 1.6       | Everyone       | 11/21/23      | Everyone    | 11/21/23      | Reviewed for content and format.                                                             |
+
+## Table of Contents
+
+- [U↑ Software Project Management Plan](#u↑-software-project-management-plan)
+  - [VERSION HISTORY](#version-history)
+  - [Table of Contents](#table-of-contents)
+  - [1 INTRODUCTION](#1-introduction)
+    - [1.1 Project Overview](#11-project-overview)
+      - [1.1.1 Purpose, Scope and Objective](#111-purpose-scope-and-objective)
+      - [1.1.2 Assumptions](#112-assumptions)
+      - [1.1.3 Constraints](#113-constraints)
+      - [1.1.4 Project Deliverables](#114-project-deliverables)
+    - [1.2 Evolution of SPMP](#12-evolution-of-spmp)
+    - [1.3 Schedule](#13-schedule)
+  - [2 PROJECT ORGANISATION](#2-project-organisation)
+    - [2.1 Process Model](#21-process-model)
+    - [2.2 Organisational Structure](#22-organisational-structure)
+    - [2.3 Organisational Boundaries](#23-organisational-boundaries)
+    - [2.4 Project Responsibilities](#24-project-responsibilities)
+      - [2.4.1 Internal Roles and Responsibilities](#241-internal-roles-and-responsibilities)
+      - [2.4.2 External Roles and Responsibilities](#242-external-roles-and-responsibilities)
+    - [2.5 Risk Management Plan](#25-risk-management-plan)
+    - [2.6 External Structure](#26-external-structure)
+  - [3 MANAGERIAL PROCESS PLAN](#3-managerial-process-plan)
+    - [3.1 Start-up Plan](#31-start-up-plan)
+      - [3.1.1 Estimates](#311-estimates)
+        - [3.1.1.1 Estimation of Work](#3111-estimation-of-work)
+        - [3.1.1.2 Re-estimation of Work](#3112-re-estimation-of-work)
+      - [3.1.2 Staffing Plan](#312-staffing-plan)
+    - [3.2 Project Tracking Plan](#32-project-tracking-plan)
+      - [3.2.1 Process for Measuring](#321-process-for-measuring)
+      - [3.2.2 Change Control](#322-change-control)
+      - [3.2.3 Schedule Control](#323-schedule-control)
+      - [3.2.4 Communication Plan](#324-communication-plan)
+    - [3.3 Risk Management Plan](#33-risk-management-plan)
+      - [3.3.1 Main Risks](#331-main-risks)
+      - [3.3.2 Response Plan](#332-response-plan)
+    - [3.4 Project Closeout](#34-project-closeout)
+  - [4 TECHNICAL PROCESS](#4-technical-process)
+    - [4.1 Methods, Tools, and Techniques](#41-methods-tools-and-techniques)
+      - [4.1.1 Tools](#411-tools)
+      - [4.1.2 Techniques](#412-techniques)
+    - [4.2 Software Documentation](#42-software-documentation)
+    - [4.3 Project Support Functions](#43-project-support-functions)
+      - [4.3.1 Quality Assurance (QA)](#431-quality-assurance-qa)
+      - [4.3.2 Secretarial and Administrative Support](#432-secretarial-and-administrative-support)
+      - [4.3.3 Technical Support](#433-technical-support)
+      - [4.3.4 Risk Management](#434-risk-management)
+      - [4.3.5 Resource Management](#435-resource-management)
+      - [4.3.6 Procurement and Contract Management](#436-procurement-and-contract-management)
+  - [5 WORK PACKAGES, SCHEDULE, AND BUDGET](#5-work-packages-schedule-and-budget)
+    - [5.1 Work Packages](#51-work-packages)
+    - [5.2 Dependencies](#52-dependencies)
+    - [5.3 Resource Requirements](#53-resource-requirements)
+      - [5.3.1 Hardware Resources](#531-hardware-resources)
+      - [5.3.2 Infrastructure Resources](#532-infrastructure-resources)
+      - [5.3.3 Staffing Resources](#533-staffing-resources)
+    - [5.4 Budget, Resource Allocation and Schedule](#54-budget-resource-allocation-and-schedule)
+      - [5.4.1 Budget Allocation per Month](#541-budget-allocation-per-month)
+      - [5.4.2 Resource Allocation per Work Activities](#542-resource-allocation-per-work-activities)
+      - [5.4.3 Schedule of Project Activities](#543-schedule-of-project-activities)
+
+---
 
 ## 1 INTRODUCTION
+
 The Software Project Management Plan (SPMP) for the U↑ project defines the project management goals of the project and includes a description of the deliverables and deadlines. As the world shifts rapidly towards remote working and digital collaboration, the demand for advanced, cloud-based communication solutions is surging. Recognizing this trend, our client seeks to develop a comprehensive, cloud-based telephony system, "U↑". This system is designed to revolutionize communication within businesses by providing a versatile platform that supports making and receiving calls via the internet, rather than traditional landline connections. The primary goal of this project is to create a user-friendly, scalable virtual phone system that integrates seamlessly with desktop and mobile devices, enabling users to manage all communication under one unified business number. This innovation aims to cater to the evolving needs of modern businesses, providing a more flexible, efficient, and cost-effective communication solution. The SPMP for "U↑" details the steps, resources, and timeline required to turn this vision into a reality, ensuring that the final product aligns perfectly with the client's expectations and the market demands.
 
 The U↑ team consists of: Mia Battad, Daniel La Rocque, Barbara Guzman Romero and Cody Wallbridge.
-### 1.1 Project Overview
-This section of the Software Project Management Plan (SPMP) gives an overview of the purpose, scope, and objectives of the project. It also contains sections regarding the assumptions and constraints, the project deliverables, the summary of the schedule, and the plan for change in the SPMP. 
 
-#### 1.1.1 Purpose, scope and objective
+### 1.1 Project Overview
+
+This section of the Software Project Management Plan (SPMP) gives an overview of the purpose, scope, and objectives of the project. It also contains sections regarding the assumptions and constraints, the project deliverables, the summary of the schedule, and the plan for change in the SPMP.
+
+#### 1.1.1 Purpose, Scope and Objective
+
 The objective of the project is the development of the U↑ platform. U↑ is an internet-based phone system for company employees. Employees can make and receive calls over the Internet using their desktop computers, smartphones, tablets, or other devices connected to the U↑ system. Each of the user's devices connected to U↑ will be associated with a unique business phone number for incoming and outgoing calls. Any connected device can make or receive calls using U↑ whenever and wherever necessary.
 
 The project will take place over an estimated 12 months, with an estimated budget of $500K.
@@ -45,37 +112,42 @@ The project will take place over an estimated 12 months, with an estimated budge
 3. **Load Limits**: The system has an upper threshold for the number of concurrent calls it can handle, determined by the Administrator.
 
 #### 1.1.4 Project Deliverables
-| Major Deliverable | Deliverable Description |
-| ----------------- | ----------------------- |
-| Architecture design document | A high-level document describing the functional requirements and system architecture for the U↑ system. |
-| Client application UI mock-ups | Interactive user interface mock-ups representing how the U↑ mobile and desktop apps will look and respond to user interaction. |
-| System back-end and console | Server software and database for the U↑ system that can be interacted with and tested through an administrator console. |
-| Client application integration | Functional client applications that connect to the U↑ back-end and database to make and receive calls. |
+
+| Major Deliverable                   | Deliverable Description                                                                                                                           |
+| ----------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Architecture design document        | A high-level document describing the functional requirements and system architecture for the U↑ system.                                           |
+| Client application UI mock-ups      | Interactive user interface mock-ups representing how the U↑ mobile and desktop apps will look and respond to user interaction.                    |
+| System back-end and console         | Server software and database for the U↑ system that can be interacted with and tested through an administrator console.                           |
+| Client application integration      | Functional client applications that connect to the U↑ back-end and database to make and receive calls.                                            |
 | System metrics & performance report | A report detailing the measured increases in efficiency, customer satisfaction, and system availability after implementing U↑ within the company. |
 
-
 ### 1.2 Evolution of SPMP
+
 The SPMP for the U↑ project will be under version control, so any changes will be made to the plan itself. The updated document will be made available to all project members and interested stakeholders. The most recent version will also be available in the U↑ repository.
 
 ### 1.3 Schedule
-| Executive Milestones | Estimated Completion Time frame |
-| -------------------- | ------------------------------ |
-| Project plan created and approved | 2 weeks after Project Charter's initial draft is completed |
-| Visual prototypes developed | 8 weeks after requirements are finalized |
-| Software version 1 completed | 16 weeks after prototypes are completed |
-| Security and load testing of system | 4 weeks after completion of Version 1 |
-| Limited integration of system into company | 2 weeks after security and load testing |
-| Full system integration into company | 8 weeks after limited system integration |
 
+| Executive Milestones                       | Estimated Completion Time frame                            |
+| ------------------------------------------ | ---------------------------------------------------------- |
+| Project plan created and approved          | 2 weeks after Project Charter's initial draft is completed |
+| Visual prototypes developed                | 8 weeks after requirements are finalized                   |
+| Software version 1 completed               | 16 weeks after prototypes are completed                    |
+| Security and load testing of system        | 4 weeks after completion of Version 1                      |
+| Limited integration of system into company | 2 weeks after security and load testing                    |
+| Full system integration into company       | 8 weeks after limited system integration                   |
 
 ## 2 PROJECT ORGANISATION
+
 The SPMP will identify the organisational entities external to the project and their interaction with the project team, as well as internal project structure and roles and responsibilities for the project. [2.1 Process Model](#21-process-model) describes the external interfaces to the U↑ project team, [2.2 Organisational Structure](#22-organisational-structure) describes the internal structure of the team, while [2.3 Organisational Boundaries](#23-organisational-boundaries) describes the roles performed by the team members.
 
 ### 2.1 Process Model
+
 The U↑ project will follow an incremental and an iterative development model for its deliverables. The development will be done in several phases and each phase will represent a complete development cycle, with certain functionality of the system delivered at the end of each phase The phased approach to delivery provides flexibility in what the team will deliver, gives an opportunity to reassess the effort for each phase and allows both the team and the client to change any of the phase’s content.
 
 ### 2.2 Organisational Structure
+
 The internal parties with interest or influence on U↑'s development include:
+
 - **Director/CEO**
   - **Project Manager**
     - **Team Lead**
@@ -88,6 +160,7 @@ The internal parties with interest or influence on U↑'s development include:
     - **IT Department**
 
 The external parties with interest or influence on U↑'s development include:
+
 - **Client Company**
 - **Investors**
 - **Future External Companies**
@@ -95,48 +168,52 @@ The external parties with interest or influence on U↑'s development include:
 - **General Public**
 
 ### 2.3 Organisational Boundaries
-#### 2.3.1 Inclusive Boundaries
+
+The inclusive boundaries on U↑'s development include:
 
 - Support calls inside the client company.
 - Support audio and text.
 - Support major tech hardware and software.
 
-#### 2.3.2 Exclusive Boundaries
+The exclusive boundaries on U↑'s development include:
 
 - No integration with other calling software.
 - No support for calls outside the client company.
 - No support for video calls.
 
 ### 2.4 Project Responsibilities
+
 #### 2.4.1 Internal Roles and Responsibilities
 
-| Name & Organisation | Project Role | Project Responsibilities |
-| ------------------- | ------------ | ------------------------ |
-| Sales Representative     | Project Team Member  | Market the product by communicating its purpose and features |
-| IT Department            | Project Team Member  | Support the onboarding of customers and requests from the developers |
-| Developers               | Project Team Member  | Engage in day-to-day activities, be on call when needed, technical writing, and contribute to project success |
-| Team Lead                | Project Team Member  | Monitor team progress, ensure the team stays on track, run work breakdowns, organise work assignments and provide updates to Project Manager |
-| Project Manager          | Project Team Member  | Ensure Team Lead is familiar with requirements, provide updates to Director/CEO, break tasks |
-| Director/CEO             | Project Sponsor      | Ensure Project Manager is up to date on the requirements and update Investors if needed |
+| Name & Organisation  | Project Role        | Project Responsibilities                                                                                                                     |
+| -------------------- | ------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| Sales Representative | Project Team Member | Market the product by communicating its purpose and features                                                                                 |
+| IT Department        | Project Team Member | Support the onboarding of customers and requests from the developers                                                                         |
+| Developers           | Project Team Member | Engage in day-to-day activities, be on call when needed, technical writing, and contribute to project success                                |
+| Team Lead            | Project Team Member | Monitor team progress, ensure the team stays on track, run work breakdowns, organise work assignments and provide updates to Project Manager |
+| Project Manager      | Project Team Member | Ensure Team Lead is familiar with requirements, provide updates to Director/CEO, break tasks                                                 |
+| Director/CEO         | Project Sponsor     | Ensure Project Manager is up to date on the requirements and update Investors if needed                                                      |
 
 #### 2.4.2 External Roles and Responsibilities
 
-| Name & Organisation      | Project Role                 | Project Responsibilities |
-| ------------------------ | ---------------------------- | ------------------------ |
-| Investors                | Secondary Stakeholder        | Provide financial support to the project |
-| Client Company           | Customer                     | Provide feedback and requests |
-| General Public           | Future Customer              | Offer future feedback and requests |
-| Future External Companies| Future Customer              | Offer future feedback and requests |
-| Technology Manufacturers | Hardware/software supporter  | Accommodate project requirements and support system changes |
+| Name & Organisation       | Project Role                | Project Responsibilities                                    |
+| ------------------------- | --------------------------- | ----------------------------------------------------------- |
+| Investors                 | Secondary Stakeholder       | Provide financial support to the project                    |
+| Client Company            | Customer                    | Provide feedback and requests                               |
+| General Public            | Future Customer             | Offer future feedback and requests                          |
+| Future External Companies | Future Customer             | Offer future feedback and requests                          |
+| Technology Manufacturers  | Hardware/software supporter | Accommodate project requirements and support system changes |
 
 ### 2.5 Risk Management Plan
+
 The SPMP shall specify:
+
 - Risk management plan for identifying, analyzing and prioritizing project risk factors.
 - Procedures for contingency planning and the methods that will be used for tracking certain risk factors, changes in levels of the factors and responses to those changes. The U↑ team will maintain the project’s risk factors and strategies for risk mitigation in [Section 3.3 Risk Management Plan](#33-risk-management-plan).
 
 ### 2.6 External Structure
-The client for this project is the TA, Pengfei, who is acting as a company interested in this product for internal use. All formal communication between the client and team was done through email on an as-needed basis. All team communication was done in person during class meetings or via Discord as needed.
 
+The client for this project is the TA, Pengfei, who is acting as a company interested in this product for internal use. All formal communication between the client and team was done through email on an as-needed basis. All team communication was done in person during class meetings or via Discord as needed.
 
 ## 3 MANAGERIAL PROCESS PLAN
 
@@ -160,7 +237,7 @@ To achieve its objectives the "U↑" team has the following goals and priorities
   - The developer will accomplish this goal by having a clean structure and implementing clean code.
   - Accomplishing this goal will make the users have a smooth experience with the phone.
 
-### 3.1 Start-up plan
+### 3.1 Start-up Plan
 
 #### 3.1.1 Estimates
 
@@ -179,7 +256,7 @@ Table of the estimated cost allocated for the yearly cost:
 | Project Management    | 40,000             | Project planning, coordination, and management   | Based on the expected time and effort required for project planning, coordination, and management activities and cost models                |
 | Legal and Compliance  | 10,000             | Licensing, legal consultations, compliance       | Based on cost models anticipated costs for licensing, legal consultations, and ensuring regulatory compliance                               |
 | Emergency fund        | 20,000             | Unforeseen expenses and changes in requirements  | This is a rule of thumb to account for unexpected challenges                                                                                |
-| Total Budget          | 500,000            | Total Estimation                                 |  |         
+| Total Budget          | 500,000            | Total Estimation                                 |  |
 
 ##### 3.1.1.1 Estimation of Work
 
@@ -204,28 +281,28 @@ The positions we can hire for the last 6 months are:
 
 The staffing plan is broken down down by skill level below:
 
-| Skill Level         | Full Stack developers | QA developer | Project Manager    | IT Person      | Technical Writer |
-| - | - | - | - | - | - |
-| Entry-Level         | 1                     | 0            | 0                  | 1              | 1 |
-| Mid-Level           | 2                     | 1            | 1                  | 0              | 0 |
-| Senior-Level        | 1                     | 0            | 0                  | 0              | 0 |
-| Total               | 4                     | 1            | 1                  | 1              | 1 |
+| Skill Level  | Full Stack developers | QA developer | Project Manager | IT Person | Technical Writer |
+| ------------ | --------------------- | ------------ | --------------- | --------- | ---------------- |
+| Entry-Level  | 1                     | 0            | 0               | 1         | 1                |
+| Mid-Level    | 2                     | 1            | 1               | 0         | 0                |
+| Senior-Level | 1                     | 0            | 0               | 0         | 0                |
+| Total        | 4                     | 1            | 1               | 1         | 1                |
 
 The staff required per project phase are listed below:
 
-| Project Phase       | Full Stack developers | QA developer | Project Manager    | IT Person      | Technical Writer |
-| - | - | - | - | - | - |
-| Planning            | 1 Mid-Level           | 0            | 1 Mid-Level        | 0              | 0 |
-| Development         | 2 Mid-Level, 1 Senior | 0            | 0                  | 0              | 1 Entry-level |
-| Testing             | 1 Mid-Level           | 1            | 0                  | 0              | 0 |
-| Deployment          | 1 Entry-Level         | 0            | 0                  | 1 Entry-Level  | 0 |
+| Project Phase | Full Stack developers | QA developer | Project Manager | IT Person     | Technical Writer |
+| ------------- | --------------------- | ------------ | --------------- | ------------- | ---------------- |
+| Planning      | 1 Mid-Level           | 0            | 1 Mid-Level     | 0             | 0                |
+| Development   | 2 Mid-Level, 1 Senior | 0            | 0               | 0             | 1 Entry-level    |
+| Testing       | 1 Mid-Level           | 1            | 0               | 0             | 0                |
+| Deployment    | 1 Entry-Level         | 0            | 0               | 1 Entry-Level | 0                |
 
 Furthermore, the duration and source of personnel are listed below:
 
-|                     | Full Stack developers | QA developer | Project Manager    | IT Person      | Technical Writer |
-| - | - | - | - | - | - |
-| **Duration**            | 12 months             | 6 months     | 12 months          | 12 months      | 12 months |
-| **Source of Personnel** | New Hires             | New Hire     | Internal Transfer  | Contracted     | New Hire |
+|                         | Full Stack developers | QA developer | Project Manager   | IT Person  | Technical Writer |
+| ----------------------- | --------------------- | ------------ | ----------------- | ---------- | ---------------- |
+| **Duration**            | 12 months             | 6 months     | 12 months         | 12 months  | 12 months        |
+| **Source of Personnel** | New Hires             | New Hire     | Internal Transfer | Contracted | New Hire         |
 
 ## 3.2 Project Tracking Plan
 
@@ -244,6 +321,7 @@ Since we are using Agile, the schedule will be reassessed every 2 weeks in Retro
 ### 3.2.4 Communication Plan
 
 As we are going to use Agile, we will have:
+
 - 2 week sprints, starting on Mondays, with a 1 hour Sprint Planning meeting
 - Daily 15 minute standup with the developers to review their day-to-day tasks, share their progress, and ask for help
 - 1 hour Retrospective meetings at the end of each sprint cycle, i.e., every 2 weeks
@@ -295,12 +373,14 @@ To ensure that we can close out the project, we will conduct the following:
 Agile Scrum will be employed, facilitating iterative development and regular reassessment of project priorities.
 
 #### 4.1.1 Tools
+
 - **Coding:** Visual Studio Code and IntelliJ IDEA for development.
 - **Version Control:** Git with GitHub for repository management.
 - **Project Management:** JIRA for tracking progress and managing sprints.
 - **Collaboration:** Slack for team communication and Zoom for virtual meetings.
 
 #### 4.1.2 Techniques
+
 - **Requirement Gathering:** User story mapping and backlog grooming sessions.
 - **Design:** Use of UML diagrams for system architecture and database design.
 - **Testing:** Test-Driven Development (TDD) approach.
@@ -309,6 +389,7 @@ Agile Scrum will be employed, facilitating iterative development and regular rea
 - **Quality Assurance Plan:** Regular code reviews, adherence to coding standards, and automated testing to ensure quality.
 
 ### 4.2 Software Documentation
+
 - **Documentation:** All of the projects documentation will be managed in Confluence, and API documentation will be managed in Swagger.
 - **Naming Conventions and Style Guides:** Follow Google's style guides for code documentation. Variables, functions, and classes will use camelCase naming for consistency.
 - **Maintenance Plan:** Documentation will be reviewed and updated at the end of each sprint. The responsibility will be assigned on a rotating basis among team members.
@@ -364,11 +445,12 @@ As work is re-estimated throughout project execution, the PERT chart and critica
 
 ### 5.3 Resource Requirements
 
-The project will require hardware resources, software 
+The project will require hardware resources, software.
 
 #### 5.3.1 Hardware Resources
 
 Each team member will work from home. To ensure consistent hardware specifications, each team member will be given a 14-inch MacBook Pro with:
+
 - 11-core CPU14-core GPU
 - 18GB Unified Memory
 - 512GB SSD Storage
@@ -378,12 +460,14 @@ As working from home is the expectation, if employers need dongles, mice, or ext
 #### 5.3.2 Infrastructure Resources
 
 In addition to the infrastructure tools listed in [4.1 Methods, Tools, and Techniques](#41-methods-tools-and-techniques), we will use Amazon EC2 for:
+
 - Server hosting and management
 - Testing work activities on machines with different operating systems and hardware capabilities
 
 #### 5.3.3 Staffing Resources
 
 As outlined in [3.1.2 Staffing Plan](#312-staffing-plan), the necessary personnel for this project include:
+
 - 4 Full Stack developers (Development budget)
 - 1 Project Manager (Project Management budget)
 - 1 IT Person (Infrastructure budget)
@@ -397,6 +481,7 @@ The following 3 subsections provide a detailed breakdown of the budget per month
 In addition to personnel, we plan to maintain stable infrastructure, documentation and quality training sessions, and a legal team supporting the project and development company.
 
 #### 5.4.1 Budget Allocation per Month
+
 Below is the breakdown of the project budget by month. The budget is designed to leave us with $40,000 in monthly expenses.
 
 | Month | Development ($) | Testing ($) | Infrastructure ($) | UI/Design ($) | Documentation ($) | Project Management ($) | Legal/Compliance ($) | Total Expenses ($) | Confidence Level |
@@ -416,22 +501,23 @@ Below is the breakdown of the project budget by month. The budget is designed to
 | Total | 250,000         | 50,000      | 80,000             | 35,000        | 15,000            | 40,000                 | 10,000               | 480,000            | Medium           |
 
 #### 5.4.2 Resource Allocation per Work Activities
+
 Below illustrates the required resources for each work activity in the project.
 
 Note that some resources, such as the machines or software used for development, will be used throughout the project and therefore allocated to multiple work activities. As activities do not necessarily happen concurrently, the same staff personnel may be allocated to two or more activities.
 
-| Activity | Hardware Resources | Software Tools | Infrastructure Tools | Staffing Resources |
-| -------- | ------------------ | -------------- | -------------------- | ------------------ |
-| Project Management | 14" MacBook Pro (5) | Confluence, JIRA, Slack, Zoom | | Project Manager (1),  Full Stack developer (4) |
-| Initial Configuration | 14" MacBook Pro (4) | Visual Studio Code, IntelliJ IDEA, Git, Slack | Jenkins | Full Stack developer (4) |
-| Audio Communication | 14" MacBook Pro (2) | Visual Studio Code, IntelliJ IDEA, Git | Jenkins, Amazon EC2 | Full Stack developer (2) |
-| Text Communication | 14" MacBook Pro (2) | Visual Studio Code, IntelliJ IDEA, Git | Jenkins, Amazon EC2 | Full Stack developer (2) |
-| Manage User Account | 14" MacBook Pro (2) | Visual Studio Code, IntelliJ IDEA, Git | Jenkins | Full Stack developer (2) |
-| Search System Records | 14" MacBook Pro (2) | Visual Studio Code, IntelliJ IDEA, Git | Jenkins | Full Stack developer (2) |
-| Technical Support | 14" MacBook Pro (2) | Visual Studio Code, IntelliJ IDEA, Git | Jenkins, Amazon EC2 | Full Stack developer (2) |
-| Billing | 14" MacBook Pro (2) | Visual Studio Code, IntelliJ IDEA, Git | Jenkins | Full Stack developer (2) |
-| System Console | 14" MacBook Pro (2) | Visual Studio Code, IntelliJ IDEA, Git | Jenkins | Full Stack developer (2) |
-| Acceptance | 14" MacBook Pro (5) | Visual Studio Code, Confluence, IntelliJ IDEA, Git, Slack | Jenkins, Amazon EC2 | Project Manager (1), Full Stack developer (2), Quality Assurance developer (1), Technical Writer (1) |
+| Activity              | Hardware Resources  | Software Tools                                            | Infrastructure Tools | Staffing Resources                                                                                   |
+| --------------------- | ------------------- | --------------------------------------------------------- | -------------------- | ---------------------------------------------------------------------------------------------------- |
+| Project Management    | 14" MacBook Pro (5) | Confluence, JIRA, Slack, Zoom                             |                      | Project Manager (1),  Full Stack developer (4)                                                       |
+| Initial Configuration | 14" MacBook Pro (4) | Visual Studio Code, IntelliJ IDEA, Git, Slack             | Jenkins              | Full Stack developer (4)                                                                             |
+| Audio Communication   | 14" MacBook Pro (2) | Visual Studio Code, IntelliJ IDEA, Git                    | Jenkins, Amazon EC2  | Full Stack developer (2)                                                                             |
+| Text Communication    | 14" MacBook Pro (2) | Visual Studio Code, IntelliJ IDEA, Git                    | Jenkins, Amazon EC2  | Full Stack developer (2)                                                                             |
+| Manage User Account   | 14" MacBook Pro (2) | Visual Studio Code, IntelliJ IDEA, Git                    | Jenkins              | Full Stack developer (2)                                                                             |
+| Search System Records | 14" MacBook Pro (2) | Visual Studio Code, IntelliJ IDEA, Git                    | Jenkins              | Full Stack developer (2)                                                                             |
+| Technical Support     | 14" MacBook Pro (2) | Visual Studio Code, IntelliJ IDEA, Git                    | Jenkins, Amazon EC2  | Full Stack developer (2)                                                                             |
+| Billing               | 14" MacBook Pro (2) | Visual Studio Code, IntelliJ IDEA, Git                    | Jenkins              | Full Stack developer (2)                                                                             |
+| System Console        | 14" MacBook Pro (2) | Visual Studio Code, IntelliJ IDEA, Git                    | Jenkins              | Full Stack developer (2)                                                                             |
+| Acceptance            | 14" MacBook Pro (5) | Visual Studio Code, Confluence, IntelliJ IDEA, Git, Slack | Jenkins, Amazon EC2  | Project Manager (1), Full Stack developer (2), Quality Assurance developer (1), Technical Writer (1) |
 
 #### 5.4.3 Schedule of Project Activities
 
